@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#fef7ed"/>
+  
+  <!-- Title -->
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">Five Foundations of Personal Resilience</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">Building inner strength through balanced development</text>
+  
+  <!-- Foundation 1: Mental Foundation -->
+  <rect x="80" y="150" width="200" height="280" fill="#dbeafe" stroke="#3b82f6" stroke-width="3" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="90" y="160" width="180" height="50" fill="#3b82f6" rx="8"/>
+  <text x="180" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">MENTAL</text>
+  <text x="180" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FOUNDATION</text>
+  
+  <!-- Content -->
+  <text x="180" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Cognitive Resilience</text>
+  
+  <text x="180" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Growth mindset</text>
+  <text x="180" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Problem-solving skills</text>
+  <text x="180" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Critical thinking</text>
+  <text x="180" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Mental flexibility</text>
+  <text x="180" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Learning from failure</text>
+  <text x="180" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Positive self-talk</text>
+  <text x="180" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Focus and concentration</text>
+  <text x="180" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Goal clarity</text>
+  
+  <!-- Foundation 2: Emotional Foundation -->
+  <rect x="320" y="150" width="200" height="280" fill="#dcfce7" stroke="#22c55e" stroke-width="3" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="330" y="160" width="180" height="50" fill="#22c55e" rx="8"/>
+  <text x="420" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">EMOTIONAL</text>
+  <text x="420" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FOUNDATION</text>
+  
+  <!-- Content -->
+  <text x="420" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a34a">Emotional Intelligence</text>
+  
+  <text x="420" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Self-awareness</text>
+  <text x="420" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Emotional regulation</text>
+  <text x="420" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Empathy</text>
+  <text x="420" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Stress management</text>
+  <text x="420" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Emotional balance</text>
+  <text x="420" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Compassion</text>
+  <text x="420" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Optimism</text>
+  <text x="420" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Hope cultivation</text>
+  
+  <!-- Foundation 3: Physical Foundation -->
+  <rect x="560" y="150" width="200" height="280" fill="#fef3c7" stroke="#f59e0b" stroke-width="3" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="570" y="160" width="180" height="50" fill="#f59e0b" rx="8"/>
+  <text x="660" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">PHYSICAL</text>
+  <text x="660" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FOUNDATION</text>
+  
+  <!-- Content -->
+  <text x="660" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">Physical Wellness</text>
+  
+  <text x="660" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Regular exercise</text>
+  <text x="660" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Healthy nutrition</text>
+  <text x="660" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Quality sleep</text>
+  <text x="660" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Energy management</text>
+  <text x="660" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Body awareness</text>
+  <text x="660" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Relaxation techniques</text>
+  <text x="660" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Health maintenance</text>
+  <text x="660" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Recovery practices</text>
+  
+  <!-- Foundation 4: Social Foundation -->
+  <rect x="800" y="150" width="200" height="280" fill="#fce7f3" stroke="#ec4899" stroke-width="3" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="810" y="160" width="180" height="50" fill="#ec4899" rx="8"/>
+  <text x="900" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">SOCIAL</text>
+  <text x="900" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FOUNDATION</text>
+  
+  <!-- Content -->
+  <text x="900" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#db2777">Relationship Building</text>
+  
+  <text x="900" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Strong support network</text>
+  <text x="900" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Communication skills</text>
+  <text x="900" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Trust building</text>
+  <text x="900" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Conflict resolution</text>
+  <text x="900" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Community involvement</text>
+  <text x="900" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Giving and receiving</text>
+  <text x="900" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Boundary setting</text>
+  <text x="900" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Social skills</text>
+  
+  <!-- Foundation 5: Spiritual Foundation -->
+  <rect x="440" y="470" width="200" height="280" fill="#ede9fe" stroke="#8b5cf6" stroke-width="3" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="450" y="480" width="180" height="50" fill="#8b5cf6" rx="8"/>
+  <text x="540" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">SPIRITUAL</text>
+  <text x="540" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">FOUNDATION</text>
+  
+  <!-- Content -->
+  <text x="540" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">Inner Purpose</text>
+  
+  <text x="540" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Values alignment</text>
+  <text x="540" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Life meaning</text>
+  <text x="540" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Personal beliefs</text>
+  <text x="540" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Connection to purpose</text>
+  <text x="540" y="670" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Mindfulness practice</text>
+  <text x="540" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Inner peace</text>
+  <text x="540" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Gratitude</text>
+  <text x="540" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Transcendence</text>
+  
+  <!-- Connecting lines -->
+  <line x1="280" y1="290" x2="320" y2="290" stroke="#64748b" stroke-width="2"/>
+  <line x1="520" y1="290" x2="560" y2="290" stroke="#64748b" stroke-width="2"/>
+  <line x1="760" y1="290" x2="800" y2="290" stroke="#64748b" stroke-width="2"/>
+  
+  <line x1="420" y1="430" x2="450" y2="480" stroke="#64748b" stroke-width="2"/>
+  <line x1="660" y1="430" x2="630" y2="480" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Central connection -->
+  <circle cx="540" cy="450" r="20" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+  <text x="540" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">CORE</text>
+  
+  <!-- Bottom note -->
+  <text x="600" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Integrated Resilience</text>
+  <text x="600" y="840" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">All five foundations work together to create comprehensive personal resilience</text>
+  
+</svg>

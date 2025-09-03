@@ -1,0 +1,92 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)">
+  
+  <!-- Title Section -->
+  <rect x="40" y="40" width="1120" height="60" fill="#1e293b" rx="10"/>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Authenticity Compass</text>
+  
+  <!-- Main Compass Circle -->
+  <circle cx="600" cy="400" r="180" fill="#ffffff" stroke="#4f46e5" stroke-width="3"/>
+  
+  <!-- Center Circle -->
+  <circle cx="600" cy="400" r="50" fill="#4f46e5" stroke="#3730a3" stroke-width="2"/>
+  <text x="600" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">YOUR</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AUTHENTIC</text>
+  <text x="600" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">SELF</text>
+  
+  <!-- Compass Points -->
+  
+  <!-- North: Values -->
+  <circle cx="600" cy="250" r="35" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+  <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">VALUES</text>
+  <text x="600" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">North</text>
+  
+  <rect x="520" y="180" width="160" height="50" fill="#fef2f2" stroke="#ef4444" stroke-width="1" rx="6"/>
+  <text x="600" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">Core Values</text>
+  <text x="600" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">What truly matters to you</text>
+  
+  <!-- East: Strengths -->
+  <circle cx="750" cy="400" r="35" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="750" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">STRENGTHS</text>
+  <text x="750" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">East</text>
+  
+  <rect x="790" y="375" width="160" height="50" fill="#fef3c7" stroke="#f59e0b" stroke-width="1" rx="6"/>
+  <text x="870" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d97706">Natural Talents</text>
+  <text x="870" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">What you do best</text>
+  
+  <!-- South: Passions -->
+  <circle cx="600" cy="550" r="35" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  <text x="600" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">PASSIONS</text>
+  <text x="600" y="558" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">South</text>
+  
+  <rect x="520" y="570" width="160" height="50" fill="#ecfdf5" stroke="#10b981" stroke-width="1" rx="6"/>
+  <text x="600" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#059669">Life Passion</text>
+  <text x="600" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">What energizes you</text>
+  
+  <!-- West: Purpose -->
+  <circle cx="450" cy="400" r="35" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/>
+  <text x="450" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">PURPOSE</text>
+  <text x="450" y="408" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">West</text>
+  
+  <rect x="250" y="375" width="160" height="50" fill="#eff6ff" stroke="#3b82f6" stroke-width="1" rx="6"/>
+  <text x="330" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2563eb">Life Purpose</text>
+  <text x="330" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Why you exist</text>
+  
+  <!-- Compass Lines -->
+  <line x1="600" y1="300" x2="600" y2="500" stroke="#4f46e5" stroke-width="2"/>
+  <line x1="500" y1="400" x2="700" y2="400" stroke="#4f46e5" stroke-width="2"/>
+  
+  <!-- Navigation Instructions -->
+  <rect x="150" y="650" width="900" height="120" fill="#f8f9fa" stroke="#6b7280" stroke-width="2" rx="10"/>
+  <rect x="160" y="660" width="880" height="25" fill="#6b7280" rx="6"/>
+  <text x="600" y="677" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">HOW TO USE YOUR AUTHENTICITY COMPASS</text>
+  
+  <rect x="170" y="695" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="270" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">1. Know Your North</text>
+  <text x="270" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Identify your core values</text>
+  <text x="270" y="743" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">They guide every decision</text>
+  <text x="270" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ef4444">True North</text>
+  
+  <rect x="390" y="695" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="490" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">2. Use Your Strengths</text>
+  <text x="490" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Leverage natural talents</text>
+  <text x="490" y="743" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Build on what works</text>
+  <text x="490" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f59e0b">Power Source</text>
+  
+  <rect x="610" y="695" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="710" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">3. Follow Your Passion</text>
+  <text x="710" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Pursue what excites you</text>
+  <text x="710" y="743" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Energy comes naturally</text>
+  <text x="710" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#10b981">Fuel System</text>
+  
+  <rect x="830" y="695" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="930" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#374151">4. Live Your Purpose</text>
+  <text x="930" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Align actions with meaning</text>
+  <text x="930" y="743" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Create lasting impact</text>
+  <text x="930" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#3b82f6">Direction</text>
+  
+  <!-- Footer -->
+  <rect x="200" y="790" width="800" height="50" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2" rx="8"/>
+  <text x="600" y="815" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b">When All Four Align: You Live Authentically</text>
+  <text x="600" y="830" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Your compass always points toward your truest self</text>
+  
+</svg>

@@ -1,0 +1,175 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)">
+  
+  <!-- Title Section -->
+  <rect x="40" y="40" width="1120" height="60" fill="#1e293b" rx="10"/>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Complete Transformation Timeline</text>
+  
+  <!-- Timeline Arc -->
+  <path d="M 120 150 Q 600 120 1080 150" stroke="#3b82f6" stroke-width="4" fill="none"/>
+  <circle cx="120" cy="150" r="8" fill="#3b82f6"/>
+  <circle cx="350" cy="135" r="8" fill="#10b981"/>
+  <circle cx="600" cy="127" r="8" fill="#f59e0b"/>
+  <circle cx="850" cy="135" r="8" fill="#ef4444"/>
+  <circle cx="1080" cy="150" r="8" fill="#8b5cf6"/>
+  
+  <!-- Phase 1: Awareness (Days 1-90) -->
+  <rect x="60" y="180" width="180" height="120" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" rx="8"/>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0284c7">DAYS 1-90</text>
+  <text x="150" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">AWARENESS</text>
+  <text x="150" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Values exploration</text>
+  <text x="150" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Pattern recognition</text>
+  <text x="150" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Self-observation</text>
+  <text x="150" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Journal practices</text>
+  
+  <!-- Phase 2: Understanding (Days 91-180) -->
+  <rect x="290" y="180" width="180" height="120" fill="#ecfdf5" stroke="#059669" stroke-width="2" rx="8"/>
+  <text x="380" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">DAYS 91-180</text>
+  <text x="380" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">UNDERSTANDING</text>
+  <text x="380" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Root cause analysis</text>
+  <text x="380" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Emotional mapping</text>
+  <text x="380" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Connection patterns</text>
+  <text x="380" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Belief examination</text>
+  
+  <!-- Phase 3: Action (Days 181-270) -->
+  <rect x="520" y="180" width="180" height="120" fill="#fef3c7" stroke="#d97706" stroke-width="2" rx="8"/>
+  <text x="610" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">DAYS 181-270</text>
+  <text x="610" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">ACTION</text>
+  <text x="610" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Boundary setting</text>
+  <text x="610" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Communication shifts</text>
+  <text x="610" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Decision alignment</text>
+  <text x="610" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Lifestyle changes</text>
+  
+  <!-- Phase 4: Integration (Days 271-365) -->
+  <rect x="750" y="180" width="180" height="120" fill="#fef2f2" stroke="#dc2626" stroke-width="2" rx="8"/>
+  <text x="840" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">DAYS 271-365</text>
+  <text x="840" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">INTEGRATION</text>
+  <text x="840" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Habit consolidation</text>
+  <text x="840" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Relationship evolution</text>
+  <text x="840" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Identity solidification</text>
+  <text x="840" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Purpose clarification</text>
+  
+  <!-- Phase 5: Mastery (Year 2+) -->
+  <rect x="980" y="180" width="180" height="120" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2" rx="8"/>
+  <text x="1070" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">YEAR 2+</text>
+  <text x="1070" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">MASTERY</text>
+  <text x="1070" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Teaching others</text>
+  <text x="1070" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Continuous growth</text>
+  <text x="1070" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Legacy building</text>
+  <text x="1070" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">• Wisdom sharing</text>
+  
+  <!-- Milestones Section -->
+  <rect x="80" y="330" width="1040" height="140" fill="#fefefe" stroke="#cbd5e1" stroke-width="2" rx="10"/>
+  <rect x="90" y="340" width="1020" height="30" fill="#4f46e5" rx="6"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">KEY MILESTONES AND CELEBRATIONS</text>
+  
+  <!-- Month 1 -->
+  <rect x="100" y="380" width="180" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="190" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4f46e5">Month 1</text>
+  <text x="190" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">First breakthrough</text>
+  <text x="190" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Values clarity</text>
+  <text x="190" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Self-awareness jump</text>
+  <text x="190" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Celebrate!</text>
+  
+  <!-- Month 3 -->
+  <rect x="300" y="380" width="180" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="390" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4f46e5">Month 3</text>
+  <text x="390" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Pattern mastery</text>
+  <text x="390" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">First major change</text>
+  <text x="390" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Confidence building</text>
+  <text x="390" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Milestone!</text>
+  
+  <!-- Month 6 -->
+  <rect x="500" y="380" width="180" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="590" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4f46e5">Month 6</text>
+  <text x="590" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Life restructure</text>
+  <text x="590" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Relationship shifts</text>
+  <text x="590" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">New boundaries</text>
+  <text x="590" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Transformation!</text>
+  
+  <!-- Month 9 -->
+  <rect x="700" y="380" width="180" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="790" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4f46e5">Month 9</text>
+  <text x="790" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Identity shift</text>
+  <text x="790" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Authentic living</text>
+  <text x="790" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Purpose alignment</text>
+  <text x="790" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">New You!</text>
+  
+  <!-- Year 1 -->
+  <rect x="900" y="380" width="180" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="990" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4f46e5">Year 1</text>
+  <text x="990" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Complete integration</text>
+  <text x="990" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Mentoring others</text>
+  <text x="990" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Lifelong practice</text>
+  <text x="990" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Mastery!</text>
+  
+  <!-- Support Resources -->
+  <rect x="80" y="490" width="1040" height="120" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2" rx="10"/>
+  <rect x="90" y="500" width="1020" height="30" fill="#6c757d" rx="6"/>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">ESSENTIAL SUPPORT ELEMENTS</text>
+  
+  <rect x="100" y="540" width="180" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="190" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Self-Compassion</text>
+  <text x="190" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Be gentle with yourself</text>
+  <text x="190" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Progress over perfection</text>
+  <text x="190" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Essential</text>
+  
+  <rect x="300" y="540" width="180" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="390" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Daily Practice</text>
+  <text x="390" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Consistent small steps</text>
+  <text x="390" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Reflection and action</text>
+  <text x="390" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Foundation</text>
+  
+  <rect x="500" y="540" width="180" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="590" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Community</text>
+  <text x="590" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Support system</text>
+  <text x="590" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Shared journey</text>
+  <text x="590" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Helpful</text>
+  
+  <rect x="700" y="540" width="180" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="790" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Patience</text>
+  <text x="790" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Takes time</text>
+  <text x="790" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Trust the process</text>
+  <text x="790" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Critical</text>
+  
+  <rect x="900" y="540" width="180" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="990" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Courage</text>
+  <text x="990" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Face the truth</text>
+  <text x="990" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Take bold action</text>
+  <text x="990" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#16a34a">Necessary</text>
+  
+  <!-- Challenges Section -->
+  <rect x="80" y="630" width="1040" height="130" fill="#fef5e7" stroke="#f6ad55" stroke-width="2" rx="10"/>
+  <rect x="90" y="640" width="1020" height="30" fill="#ed8936" rx="6"/>
+  <text x="600" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">CHALLENGES AND PROVEN SOLUTIONS</text>
+  
+  <rect x="100" y="680" width="240" height="70" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="220" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c05621">Months 1-3: Initial Resistance</text>
+  <text x="220" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Solution: Start with tiny changes</text>
+  <text x="220" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Focus on awareness before action</text>
+  <text x="220" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Celebrate small wins daily</text>
+  
+  <rect x="360" y="680" width="240" height="70" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="480" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c05621">Months 4-6: Social Pressure</text>
+  <text x="480" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Solution: Build supportive community</text>
+  <text x="480" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Communicate changes clearly</text>
+  <text x="480" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Set gentle but firm boundaries</text>
+  
+  <rect x="620" y="680" width="240" height="70" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="740" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c05621">Months 7-9: Progress Plateau</text>
+  <text x="740" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Solution: Deepen your practices</text>
+  <text x="740" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Seek new growth challenges</text>
+  <text x="740" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Review and refine methods</text>
+  
+  <rect x="880" y="680" width="240" height="70" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="1000" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c05621">Months 10-12: Integration</text>
+  <text x="1000" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Solution: Share your journey</text>
+  <text x="1000" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Mentor someone beginning</text>
+  <text x="1000" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Plan your next growth phase</text>
+  
+  <!-- Footer Message -->
+  <rect x="80" y="780" width="1040" height="80" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2" rx="10"/>
+  <text x="600" y="805" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Your Authentic Transformation: A Lifelong Journey of Growth</text>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">Every step forward is a victory worth celebrating - progress over perfection always</text>
+  <text x="600" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">The journey of authenticity is lifelong, but the rewards begin immediately with your first honest step</text>
+  
+</svg>
