@@ -74,3 +74,60 @@ p {
     width: 100%;
   }
 }
+/* =========================
+   الاستجابة للشاشات
+========================= */
+
+/* الهواتف (أقل من 600px) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+
+  img, svg {
+    margin: 0.5rem auto;
+  }
+}
+
+/* الأجهزة المتوسطة (تابلت ~ 768px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* الشاشات الكبيرة (أكبر من 1024px) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
