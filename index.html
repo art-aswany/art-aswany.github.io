@@ -1,140 +1,69 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الموارد التفاعلية - كتاب مرآة ذاتك في 7 أيام</title>
-  <link rel="stylesheet" href="Styles/responsive.css">
-  <link rel="stylesheet" href="Styles/interactive_resources_styles.css">
+  <title>7 Days to Self-Discovery</title>
+    <link rel="stylesheet" href="Styles/style.css"> <!-- ملف التنسيق الأساسي -->
+  <link rel="stylesheet" href="Styles/responsive.css"> <!-- ملف الاستجابة للأجهزة -->
   <style>
-    .cta-btn {
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    header {
+      background: #4a148c;
+      color: #fff;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    main {
+      padding: 2rem 1rem;
+    }
+    a.button {
       display: inline-block;
-      background-color: #3498db;
-      color: white;
-      padding: 14px 28px;
-      font-size: 18px;
-      border-radius: 6px;
+      padding: 0.7rem 1.2rem;
+      margin-top: 1rem;
+      background: #4a148c;
+      color: #fff;
       text-decoration: none;
-      margin: 20px auto;
-      text-align: center;
-      transition: 0.3s;
+      border-radius: 5px;
+      font-weight: bold;
     }
-    .cta-btn:hover {
-      background-color: #2980b9;
+    a.button:hover {
+      background: #6a1b9a;
     }
-    .resource-list li {
-      margin: 10px 0;
-    }
-    .resource-list img.icon {
-      width: 20px;
-      height: 20px;
-      margin-left: 8px;
-      vertical-align: middle;
-    }
-    .two-columns {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .two-columns > div {
-      flex: 1;
-      min-width: 250px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
-      text-align: center;
-    }
-    @media (max-width: 600px) {
-      .two-columns {
-        flex-direction: column;
-      }
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>7 Days to Self-Discovery</h1>
+    <p>Official website and resources by Abdou Aswany</p>
+  </header>
 
-  <div class="main-container">
-    <div class="content-wrapper">
+  <main>
+    <p>Welcome! This website hosts interactive tools, visual guides, and authentic living resources.</p>
+    <a href="authentic/" class="button">Explore Authentic Resources</a>
+  </main>
 
-      <h1>🌟 الموارد التفاعلية لكتاب "مرآة ذاتك في 7 أيام"</h1>
-
-      <!-- زر CTA -->
-      <div class="text-center">
-        <a href="#resources" class="cta-btn">ابدأ الاستكشاف</a>
-      </div>
-
-      <!-- قائمة الموارد -->
-      <h2 id="resources">📂 الموارد المتاحة</h2>
-      <ul class="resource-list">
-        <li>
-          <img src="Images/icon-image.png" class="icon" alt="Icon"> 
-          <a href="Resources/resource1.html" target="_blank">مورد تفاعلي 1</a>
-        </li>
-        <li>
-          <img src="Images/icon-image.png" class="icon" alt="Icon"> 
-          <a href="Resources/resource2.html" target="_blank">مورد تفاعلي 2</a>
-        </li>
-        <li>
-          <img src="Images/icon-image.png" class="icon" alt="Icon"> 
-          <a href="Images/example.png" target="_blank">صورة توضيحية</a>
-        </li>
-      </ul>
-
-      <!-- تجربة جدول -->
-      <h2>📊 جدول تجريبي</h2>
-      <table>
-        <tr>
-          <th>اليوم</th>
-          <th>النشاط</th>
-          <th>الحالة</th>
-        </tr>
-        <tr>
-          <td>اليوم 1</td>
-          <td>تأمل وكتابة</td>
-          <td>✅ مكتمل</td>
-        </tr>
-        <tr>
-          <td>اليوم 2</td>
-          <td>ممارسة تمرين</td>
-          <td>⏳ جاري</td>
-        </tr>
-      </table>
-
-      <!-- تجربة عمودين -->
-      <h2>📝 قسم بعمودين</h2>
-      <div class="two-columns">
-        <div>
-          <h3>النص</h3>
-          <p>
-            هذا مثال على قسم يحتوي على نص في العمود الأول. الغرض منه اختبار كيف يعمل التصميم 
-            عند العرض على الشاشات الصغيرة والكبيرة.
-          </p>
-        </div>
-        <div>
-          <h3>صورة</h3>
-          <img src="Images/example.png" alt="مثال صورة">
-        </div>
-      </div>
-
-      <!-- نسخة إنجليزية -->
-      <h2>🌍 English Section</h2>
-      <p>
-        Welcome to the interactive resources of the book <strong>"Mirror of Your True Self in 7 Days"</strong>.  
-        Use the button below to start exploring.
-      </p>
-      <div class="text-center">
-        <a href="#resources" class="cta-btn">Start Exploring</a>
-      </div>
-
-    </div>
-  </div>
-
+  <footer>
+    &copy; 2025 Abdou Aswany. All rights reserved.
+  </footer>
 </body>
 </html>
