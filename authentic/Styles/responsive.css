@@ -1,0 +1,76 @@
+/* responsive.css */
+
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* الخطوط الأساسية */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+/* الصور */
+img, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* العناوين */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* الأزرار */
+button, .cta {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 1rem auto;
+  background: #6a0dad; /* بنفسجي */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+button:hover, .cta:hover {
+  background: #4a087b;
+}
+
+/* النصوص */
+p {
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  font-size: 1rem;
+}
+
+/* استجابة للشاشات الصغيرة */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* استجابة للموبايل */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  .cta {
+    width: 100%;
+  }
+}
