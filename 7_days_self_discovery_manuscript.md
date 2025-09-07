@@ -18,7 +18,7 @@ Today's mission is simple but profound: **Identify the difference between your a
 ## The Mask Collection: How We Become Strangers to Ourselves
 
 
-{{authentic_vs_masks.svg}}
+![authentic_vs_masks.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authentic_vs_masks.svg)
 
 
 By the time you're reading this, you've been wearing masks for so long that they feel like part of your face. These masks aren't conscious deceptions—they're survival strategies you developed to navigate the complex demands of family, school, work, and society.
@@ -53,7 +53,7 @@ Dr. Jennifer Hartley from the University of California's Psychology Department e
 
 
 
-👉 Explore this interactive tool: {{01_Identity_Archaeology_Toolkit.html}}
+👉 Explore this interactive tool: [View resource: 01_Identity_Archaeology_Toolkit.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/01_Identity_Archaeology_Toolkit.html)
 
 
 
@@ -87,7 +87,7 @@ Most people wear multiple masks, switching between them depending on context. Th
 ## Identity Archaeology: Digging Beneath the Layers
 
 
-{{identity_archaeology.svg}}
+![identity_archaeology.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/identity_archaeology.svg)
 
 
 Now that you understand how masks develop, it's time to begin removing them. This process requires the careful precision of an archaeologist—rushing will damage the authentic artifacts we're trying to uncover.
@@ -97,7 +97,7 @@ Now that you understand how masks develop, it's time to begin removing them. Thi
 **Exercise 1: The Mask Inventory**
 
 
-👉 Explore this interactive tool: {{01_Identity_Archaeology_Toolkit.html}}
+👉 Explore this interactive tool: [View resource: 01_Identity_Archaeology_Toolkit.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/01_Identity_Archaeology_Toolkit.html)
 
 
 
@@ -198,7 +198,7 @@ Before socialization shaped your behavior, you had natural preferences, instinct
 ## The Real You Emerges: Accessing Your Authentic Core
 
 
-{{premium_identity_constellation.svg}}
+![premium_identity_constellation.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/premium_identity_constellation.svg)
 
 
 With your masks identified and childhood patterns excavated, you're ready for the most important exercise of Day 1: **directly accessing your authentic self.**
@@ -208,7 +208,7 @@ This requires moving beyond analytical thinking into intuitive awareness. Your a
 **Exercise 3: The Authenticity Body Scan**
 
 
-👉 Explore this interactive tool: {{02_Mask_Detection_Worksheet.html}}
+👉 Explore this interactive tool: [View resource: 02_Mask_Detection_Worksheet.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/02_Mask_Detection_Worksheet.html)
 
 
 
@@ -372,7 +372,7 @@ Your authentic self might feel scary after years of mask-wearing, but this "cave
 ## Benefits & Consequences: Why This Work Matters
 
 
-{{transformation_timeline.svg}}
+![transformation_timeline.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/transformation_timeline.svg)
 
 
 **BENEFITS of Continuing This Authenticity Journey:**
@@ -462,7 +462,7 @@ You've taken the first step toward claiming that privilege.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **02_Day2_Foundation.md**
@@ -600,7 +600,7 @@ Your temperament is your most fundamental personality layer—how you naturally 
 **The Four Core Temperament Patterns:**
 
 
-{{five_resilience_foundations.svg}}
+![five_resilience_foundations.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/five_resilience_foundations.svg)
 
 
 **High Sensitivity, Low Activity (The Thoughtful Observer):**
@@ -644,7 +644,7 @@ Your temperament is your most fundamental personality layer—how you naturally 
 **Exercise 1: Your Temperament Assessment**
 
 
-👉 Explore this interactive tool: {{04_Temperament_Discovery_Framework.html}}
+👉 Explore this interactive tool: [View resource: 04_Temperament_Discovery_Framework.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/04_Temperament_Discovery_Framework.html)
 
 
 
@@ -691,7 +691,7 @@ B) I adapt quickly to unexpected changes
 **Component 2: Natural Energy Patterns**
 
 
-{{emotional_resilience_pillars.svg}}
+![emotional_resilience_pillars.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_resilience_pillars.svg)
 
 
 Beyond temperament, you have natural energy rhythms that determine when you're most authentic and effective. These patterns are often overridden by social expectations but provide crucial information about your authentic self.
@@ -699,7 +699,7 @@ Beyond temperament, you have natural energy rhythms that determine when you're m
 **Exercise 2: Energy Audit**
 
 
-👉 Explore this interactive tool: {{05_Energy_Pattern_Analyzer.html}}
+👉 Explore this interactive tool: [View resource: 05_Energy_Pattern_Analyzer.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/05_Energy_Pattern_Analyzer.html)
 
 
 
@@ -773,7 +773,7 @@ Your authentic motivation comes from intrinsic sources—activities and outcomes
 **The Four Primary Intrinsic Motivators:**
 
 
-{{authenticity_compass.svg}}
+![authenticity_compass.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authenticity_compass.svg)
 
 
 **Mastery Motivation:** Driven by the desire to get better at meaningful skills
@@ -879,7 +879,7 @@ Authentic strengths are abilities that emerge naturally when you're operating fr
 **Exercise 4: Effortless Ability Inventory**
 
 
-👉 Explore this interactive tool: {{07_Natural_Strengths_Identifier.html}}
+👉 Explore this interactive tool: [View resource: 07_Natural_Strengths_Identifier.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/07_Natural_Strengths_Identifier.html)
 
 
 
@@ -924,7 +924,7 @@ For each strength you've identified, assess:
 ## Integration: Your Personality Foundation
 
 
-{{premium_identity_constellation.svg}}
+![premium_identity_constellation.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/premium_identity_constellation.svg)
 
 
 Now that you've explored your temperament, energy patterns, motivation sources, and natural strengths, it's time to synthesize these discoveries into a coherent understanding of your personality foundation.
@@ -932,7 +932,7 @@ Now that you've explored your temperament, energy patterns, motivation sources, 
 **Exercise 5: Foundation Synthesis**
 
 
-👉 Explore this interactive tool: {{08_Foundation_Integration_Dashboard.html}}
+👉 Explore this interactive tool: [View resource: 08_Foundation_Integration_Dashboard.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/08_Foundation_Integration_Dashboard.html)
 
 
 
@@ -1100,7 +1100,7 @@ You're building that life one authentic discovery at a time.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **03_Day3_Core_Values.md**
@@ -1135,7 +1135,7 @@ Today's mission: **Identify your authentic core values, prioritize them into a p
 ## Values vs. Shoulds: The Great Distinction
 
 
-{{authentic_vs_imposed_values.svg}}
+![authentic_vs_imposed_values.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authentic_vs_imposed_values.svg)
 
 
 Before we can discover your authentic values, we must distinguish between **authentic values** (what genuinely matters to you) and **imposed shoulds** (what you've been told should matter).
@@ -1186,7 +1186,7 @@ Discovering your authentic values requires archaeological precision. Like uncove
 **Exercise 1: Values Archaeology - Mining Peak Experiences**
 
 
-👉 Explore this interactive tool: {{09_Core_Values_Discovery_Guide.html}}
+👉 Explore this interactive tool: [View resource: 09_Core_Values_Discovery_Guide.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/09_Core_Values_Discovery_Guide.html)
 
 
 
@@ -1223,7 +1223,7 @@ From your peak experience analysis, extract potential core values. Look for patt
 **Universal Value Categories:**
 
 
-{{universal_values_circle.svg}}
+![universal_values_circle.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/universal_values_circle.svg)
 
 *(Based on extensive cross-cultural research by Schwartz et al., 2012, and updated through contemporary global values surveys)*
 
@@ -1254,7 +1254,7 @@ From your peak experience analysis, extract potential core values. Look for patt
 **Exercise 2: The Values Sorting Process**
 
 
-👉 Explore this interactive tool: {{10_Values_Hierarchy_Worksheet.html}}
+👉 Explore this interactive tool: [View resource: 10_Values_Hierarchy_Worksheet.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/10_Values_Hierarchy_Worksheet.html)
 
 
 
@@ -1301,7 +1301,7 @@ Life constantly presents situations where values conflict. Your values hierarchy
 **Exercise 3: Values Conflict Resolution**
 
 
-👉 Explore this interactive tool: {{11_Values_Conflict_Resolution_Framework.html}}
+👉 Explore this interactive tool: [View resource: 11_Values_Conflict_Resolution_Framework.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/11_Values_Conflict_Resolution_Framework.html)
 
 
 
@@ -1353,7 +1353,7 @@ After scenario testing, rank your core values from most to least important:
 ## Creating Your Values Compass: A Decision-Making Framework
 
 
-{{values_decision_compass.svg}}
+![values_decision_compass.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_decision_compass.svg)
 
 
 With your core values identified and prioritized, you can create a practical framework for making authentic decisions in any situation.
@@ -1361,7 +1361,7 @@ With your core values identified and prioritized, you can create a practical fra
 **Exercise 4: Your Personal Values Compass**
 
 
-{{values_decision_compass.svg}}
+![values_decision_compass.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_decision_compass.svg)
 
 
 
@@ -1407,7 +1407,7 @@ Create a systematic approach for making values-based decisions:
 **Part C: Values Boundaries**
 
 
-{{values_boundaries_map.svg}}
+![values_boundaries_map.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_boundaries_map.svg)
 
 
 Define clear boundaries based on your values:
@@ -1431,7 +1431,7 @@ Define clear boundaries based on your values:
 ## Values in Relationships: Communicating What Matters
 
 
-{{values_communication_model.svg}}
+![values_communication_model.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_communication_model.svg)
 
 
 One of the most challenging aspects of authentic living is honoring your values within relationships that may not share or understand them.
@@ -1439,7 +1439,7 @@ One of the most challenging aspects of authentic living is honoring your values 
 **Exercise 5: Values Communication Strategy**
 
 
-{{values_communication_model.svg}}
+![values_communication_model.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_communication_model.svg)
 
 
 
@@ -1619,7 +1619,7 @@ You're actively choosing your authentic destiny.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **04_Day4_Values_in_Action.md**
@@ -1663,7 +1663,7 @@ But what if I told you that everything could change in just seven days?
 ## The Authenticity Crisis: Why Most People Live Disconnected Lives
 
 
-{{authentic_vs_masks.svg}}
+![authentic_vs_masks.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authentic_vs_masks.svg)
 
 
 Consider Sarah, a 34-year-old marketing director in Austin, Texas. From the outside, her life looks perfect: six-figure salary, beautiful apartment, impressive LinkedIn profile. 
@@ -1698,7 +1698,7 @@ But here's the truth most people don't realize: **Your authentic self is still t
 ## The 7-Day Solution: Why Intensive Programs Transform What Years of Gradual Change Cannot
 
 
-{{transformation_timeline.svg}}
+![transformation_timeline.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/transformation_timeline.svg)
 
 
 Traditional personal development approaches ask you to change slowly, gradually, over months or years. "Take it one day at a time," they say. "Rome wasn't built in a day." 
@@ -1775,7 +1775,7 @@ This isn't a book to read casually over months. It's a transformation system des
 - **Private space** for honest self-reflection
 - **Journal or notebook** for exercises and insights 
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 
 - **Commitment** to complete all seven days without skipping
@@ -1857,7 +1857,7 @@ Before we begin the intensive discovery process, it's important to establish you
 **Exercise 1: Current Self-Knowledge Inventory**
 
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 
 
@@ -1919,7 +1919,7 @@ Write this commitment in your journal and sign it:
 ## The Journey Begins Tomorrow
 
 
-{{seven_days_integration.svg}}
+![seven_days_integration.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/seven_days_integration.svg)
 
 
 Tomorrow, we start with the most fundamental question in human existence: **Who are you really?** 
@@ -1977,19 +1977,19 @@ Welcome to Day 4. Yesterday you discovered your core values and created your val
 This is where many authenticity journeys stall. It's one thing to identify what matters to you; it's another to restructure your life around those principles, especially when doing so challenges existing commitments, relationships, and expectations.
 
 
-{{90_day_restructure_plan.svg}}
+![90_day_restructure_plan.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/90_day_restructure_plan.svg)
 
 
 Today's mission isn't just about making values-based decisions—it's about **systematically redesigning your life architecture to support authentic living.**
 
 
-{{values_decision_compass.svg}}
+![values_decision_compass.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_decision_compass.svg)
 
 
 Today's mission: **Apply your values in real-world situations, create authentic boundaries, and begin restructuring your life to align with your true principles.**
 
 
-{{values_boundaries_map.svg}}
+![values_boundaries_map.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_boundaries_map.svg)
 
 
 ---
@@ -2173,7 +2173,7 @@ Different cultures experience varying pressures when implementing personal value
 *Her values compass guided her to have honest conversations about creative support and growth, prioritizing her top three values while working to maintain stability through improved communication.*
 
 
-{{values_communication_model.svg}}
+![values_communication_model.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_communication_model.svg)
 
 
 **International Lifestyle Decision Example:**
@@ -2339,7 +2339,7 @@ Plan carefully for major life changes that significantly honor your values:
 *American Example: Michelle, a marketing director in Atlanta, designed her 90-day plan around her core values of Creativity, Environmental Impact, and Family Connection:*
 
 
-{{90_day_implementation_timeline.svg}}
+![90_day_implementation_timeline.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/90_day_implementation_timeline.svg)
 
 
 *Month 1: Rearranged her workspace for more natural light and plants, started walking meetings for better health and creativity, established no-work boundaries during family dinner time.*
@@ -2517,7 +2517,7 @@ You're creating abundance through authentic alignment.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **05_Day5_Emotional_Language.md**
@@ -2806,7 +2806,7 @@ Traditional emotional regulation often involves controlling or suppressing emoti
 **The ARISE Method for Emotional Integration:**
 
 
-{{arise_method_flowchart.svg}}
+![arise_method_flowchart.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/arise_method_flowchart.svg)
 
 *(Based on applied psychology principles from emotional processing research and validated through cross-cultural implementation studies)*
 
@@ -2862,7 +2862,7 @@ Traditional emotional regulation often involves controlling or suppressing emoti
 True emotional resilience doesn't come from suppressing difficult emotions—it comes from developing the capacity to experience the full range of human feelings while maintaining connection to your authentic self.
 
 
-{{emotional_resilience_pillars.svg}}
+![emotional_resilience_pillars.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_resilience_pillars.svg)
 
 
 **The Four Pillars of Authentic Emotional Resilience:**
@@ -3024,7 +3024,7 @@ Your emotions are essential guides on this journey of becoming.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **06_Day6_Emotional_Mastery.md**
@@ -3101,7 +3101,7 @@ When facing challenging situations, you have multiple response options. The key 
 **Exercise 1: Authentic Response Assessment**
 
 
-👉 Explore this interactive tool: {{18_Response_Framework_Toolkit.html}}
+👉 Explore this interactive tool: [View resource: 18_Response_Framework_Toolkit.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/18_Response_Framework_Toolkit.html)
 
 
 
@@ -3167,7 +3167,7 @@ Difficult emotions often arise precisely when we're being asked to compromise ou
 **Exercise 2: Difficult Emotion Navigation**
 
 
-👉 Explore this interactive tool: {{19_Emotion_Navigation_Guide.html}}
+👉 Explore this interactive tool: [View resource: 19_Emotion_Navigation_Guide.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/19_Emotion_Navigation_Guide.html)
 
 
 
@@ -3243,7 +3243,7 @@ Conflict often arises when people's authentic needs, values, or perspectives cla
 **Exercise 3: Authentic Conflict Navigation**
 
 
-👉 Explore this interactive tool: {{20_Conflict_Resolution_Framework.html}}
+👉 Explore this interactive tool: [View resource: 20_Conflict_Resolution_Framework.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/20_Conflict_Resolution_Framework.html)
 
 
 
@@ -3304,7 +3304,7 @@ Much of our stress comes from living out of alignment with our authentic selves.
 **Exercise 4: Authentic Stress Assessment**
 
 
-👉 Explore this interactive tool: {{21_Stress_Analysis_Worksheet.html}}
+👉 Explore this interactive tool: [View resource: 21_Stress_Analysis_Worksheet.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/21_Stress_Analysis_Worksheet.html)
 
 
 
@@ -3369,7 +3369,7 @@ Emotional resilience isn't about becoming invulnerable—it's about developing t
 **Exercise 5: Emotional Resilience Building**
 
 
-👉 Explore this interactive tool: {{22_Resilience_Development_Plan.html}}
+👉 Explore this interactive tool: [View resource: 22_Resilience_Development_Plan.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/22_Resilience_Development_Plan.html)
 
 
 
@@ -3429,7 +3429,7 @@ Emotional resilience isn't about becoming invulnerable—it's about developing t
 ## Advanced Emotional Skills for Authentic Leadership
 
 
-{{emotional_intelligence_wheel.svg}}
+![emotional_intelligence_wheel.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_intelligence_wheel.svg)
 
 
 As you develop emotional mastery, you naturally become someone others look to for guidance and support. Authentic leadership emerges from emotional intelligence combined with genuine care for others' authentic development.
@@ -3603,7 +3603,7 @@ You're mastering the emotional skills that make this privilege possible.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **07_Day7_Authenticity_Blueprint.md**
@@ -3639,7 +3639,7 @@ Today's mission: **Create your comprehensive authenticity blueprint that integra
 ## Integration: Weaving Together Your Authentic Self
 
 
-{{seven_days_integration.svg}}
+![seven_days_integration.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/seven_days_integration.svg)
 
 
 Before creating your blueprint, let's integrate the key discoveries from each day into a coherent understanding of your authentic self.
@@ -3647,7 +3647,7 @@ Before creating your blueprint, let's integrate the key discoveries from each da
 **Exercise 1: Seven-Day Discovery Integration**
 
 
-👉 Explore this interactive tool: {{23_Comprehensive_Integration_Workbook.html}}
+👉 Explore this interactive tool: [View resource: 23_Comprehensive_Integration_Workbook.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/23_Comprehensive_Integration_Workbook.html)
 
 
 
@@ -3730,7 +3730,7 @@ From your emotional skills development:
 ## Your Authenticity Blueprint Architecture
 
 
-{{authenticity_blueprint_template.svg}}
+![authenticity_blueprint_template.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authenticity_blueprint_template.svg)
 
 
 Now that you've integrated your discoveries, let's create the structural framework of your authenticity blueprint.
@@ -3738,7 +3738,7 @@ Now that you've integrated your discoveries, let's create the structural framewo
 **Exercise 2: Blueprint Foundation Design**
 
 
-👉 Explore this interactive tool: {{24_Blueprint_Template_System.html}}
+👉 Explore this interactive tool: [View resource: 24_Blueprint_Template_System.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/24_Blueprint_Template_System.html)
 
 
 
@@ -3762,7 +3762,7 @@ Create a compelling vision of your life when fully aligned with your authentic s
 **Component 2: Authenticity Compass**
 
 
-{{authenticity_compass.svg}}
+![authenticity_compass.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authenticity_compass.svg)
 
 
 Your decision-making framework for any life choice:
@@ -3829,7 +3829,7 @@ Your ongoing practices for staying connected to and living from your authentic s
 ## Implementation Timeline: Your 90-Day Authenticity Launch
 
 
-{{90_day_implementation_timeline.svg}}
+![90_day_implementation_timeline.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/90_day_implementation_timeline.svg)
 
 
 Your blueprint needs an immediate action plan to transform insights into lived reality.
@@ -3898,7 +3898,7 @@ Your blueprint needs an immediate action plan to transform insights into lived r
 ## Advanced Authenticity: Growing Into Your Full Potential
 
 
-{{long_term_development_path.svg}}
+![long_term_development_path.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/long_term_development_path.svg)
 
 
 Authentic living isn't a destination—it's a developmental process that deepens and expands throughout your life. Your blueprint must include frameworks for continued growth.
@@ -3906,7 +3906,7 @@ Authentic living isn't a destination—it's a developmental process that deepens
 **Exercise 3: Authenticity Development Pathway**
 
 
-👉 Explore this interactive tool: {{25_Growth_Planning_Framework.html}}
+👉 Explore this interactive tool: [View resource: 25_Growth_Planning_Framework.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/25_Growth_Planning_Framework.html)
 
 
 
@@ -3993,7 +3993,7 @@ Complete this reflection:
 ## Wisdom for the Lifelong Journey
 
 
-{{lifelong_practice_cycle.svg}}
+![lifelong_practice_cycle.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/lifelong_practice_cycle.svg)
 
 
 **Essential Principles for Sustained Authentic Living:**
@@ -4140,17 +4140,17 @@ You've trusted the magic. Now live the transformation.
 
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **  
 **
 
-👉 Explore this interactive tool: {{00_Resource_Index.html}}
+👉 Explore this interactive tool: [View resource: 00_Resource_Index.html](https://art-aswany.github.io/art-aswany.github.io/authentic/Resources/00_Resource_Index.html)
 
 **
 
@@ -4182,7 +4182,7 @@ You didn't just read about self-discovery—you lived it. You didn't just unders
 ## The Transformation You've Undergone
 
 
-{{transformation_timeline.svg}}
+![transformation_timeline.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/transformation_timeline.svg)
 
 
 Let's acknowledge the profound shift that has occurred. Seven days ago, you may have been:
@@ -4235,7 +4235,7 @@ You are part of this transformation. Your authentic living matters not just for 
 ## The Journey Continues: Your Lifelong Practice
 
 
-{{lifelong_practice_cycle.svg}}
+![lifelong_practice_cycle.svg](https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/lifelong_practice_cycle.svg)
 
 
 Completing this 7-day program doesn't mean you've "arrived" at authenticity—it means you've begun a lifelong practice of deepening alignment with your true self. Authenticity isn't a destination; it's a way of traveling through life.
