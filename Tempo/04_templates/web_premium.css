@@ -1,0 +1,6 @@
+body { font-family: "Helvetica Neue", Arial; margin: 2rem; color:#222; }
+h1 { color:#6C5CE7; text-align:center; font-size:2.2rem; }
+h2 { color:#333; border-bottom:2px solid #6C5CE7; padding-bottom:0.2em; }
+p { max-width:700px; margin:0.8em auto; font-size:1.05rem; }
+blockquote { background:#f6f5ff; border-left:4px solid #6C5CE7; padding:1em; margin:1.2em auto; }
+img { display:block; max-width:100%; margin:1.2em auto; border-radius:6px; }

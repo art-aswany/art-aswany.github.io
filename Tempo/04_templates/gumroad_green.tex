@@ -1,0 +1,32 @@
+% Gumroad Green (Fresh green accent)
+\documentclass[12pt]{book}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\setmainfont{Calibri}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+
+\definecolor{accent}{HTML}{27ae60}
+\definecolor{muted}{HTML}{e8f8f5}
+
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\linespread{1.4}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\textcolor{accent}{Authentic Living Guide}}
+\fancyfoot[C]{\thepage}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Huge\bfseries\color{accent}}{\chaptername\ \thechapter}{20pt}{\Huge}
+
+\newtcolorbox{quoteBox}{
+  colback=muted, colframe=accent, boxrule=0.5pt, left=10pt,right=10pt
+}
+
+\begin{document}
+$body$
+\end{document}

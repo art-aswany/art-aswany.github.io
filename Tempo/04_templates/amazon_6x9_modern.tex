@@ -1,0 +1,24 @@
+% Amazon 6x9 Modern (Palatino)
+\documentclass[11pt]{book}
+\usepackage[paperwidth=6in, paperheight=9in, top=1in, bottom=1in, inner=0.9in, outer=0.7in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Palatino Linotype}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.4em}
+\linespread{1.2}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\titleformat{\chapter}[display]
+  {\normalfont\LARGE\bfseries}{\chaptername\ \thechapter}{20pt}{\Huge}
+
+\begin{document}
+$body$
+\end{document}

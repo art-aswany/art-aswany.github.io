@@ -1,0 +1,25 @@
+% Amazon 6x9 Classic (Times New Roman)
+\documentclass[12pt]{book}
+\usepackage[paperwidth=6in, paperheight=9in, top=1in, bottom=1in, inner=0.9in, outer=0.7in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.6em}
+\linespread{1.3}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptername\ \thechapter}{20pt}{\Huge}
+
+\begin{document}
+$body$
+\end{document}

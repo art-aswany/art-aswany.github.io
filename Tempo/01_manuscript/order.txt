@@ -1,0 +1,12 @@
+01_titlepage.md
+02_Acknowledgments.md
+03_Introduction.md
+04_Day1_Unmasking_Identity.md
+05_Day2_Foundation.md
+06_Day3_Core_Values.md
+07_Day4_Values_in_Action.md
+08_Day5_Emotional_Language.md
+09_Day6_Emotional_Mastery.md
+10_Day7_Authenticity_Blueprint.md
+11_Conclusion.md
+12_About_the_Author.md

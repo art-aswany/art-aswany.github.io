@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARISE Method Quick Reference - Day 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .arise-overview {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .arise-step {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border-left: 5px solid;
+            transition: transform 0.3s ease;
+        }
+        
+        .arise-step:hover {
+            transform: translateY(-5px);
+        }
+        
+        .step-a { border-left-color: #e74c3c; }
+        .step-r { border-left-color: #f39c12; }
+        .step-i { border-left-color: #3498db; }
+        .step-s { border-left-color: #2ecc71; }
+        .step-e { border-left-color: #9b59b6; }
+        
+        .arise-step h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        
+        .step-a h3 { color: #e74c3c; }
+        .step-r h3 { color: #f39c12; }
+        .step-i h3 { color: #3498db; }
+        .step-s h3 { color: #2ecc71; }
+        .step-e h3 { color: #9b59b6; }
+        
+        .arise-step h4 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .quick-guide {
+            background: #fff3cd;
+            border: 2px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+        }
+        
+        .quick-guide h3 {
+            color: #d68910;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .scenario-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .scenario-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-top: 4px solid #667eea;
+        }
+        
+        .scenario-card h4 {
+            color: #667eea;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        
+        .arise-process {
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+        
+        .process-step {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .step-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .icon-a { background: #e74c3c; }
+        .icon-r { background: #f39c12; }
+        .icon-i { background: #3498db; }
+        .icon-s { background: #2ecc71; }
+        .icon-e { background: #9b59b6; }
+        
+        .practice-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+        
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+            margin: 8px 0;
+            transition: border-color 0.3s;
+        }
+        
+        .input-field:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .textarea-field {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+            min-height: 80px;
+            resize: vertical;
+            font-family: inherit;
+            margin: 8px 0;
+        }
+        
+        .textarea-field:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .tip-card {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f1f8ff 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #2196f3;
+        }
+        
+        .tip-card h4 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                max-width: none;
+            }
+            
+            .header {
+                background: #667eea !important;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 ARISE Method</h1>
+            <p>Quick Reference Guide for Emotional Navigation</p>
+        </div>
+        
+        <div class="content">
+            <div class="quick-guide">
+                <h3>⚡ The ARISE Method at a Glance</h3>
+                <p style="text-align: center; font-size: 1.1em; margin-bottom: 20px;">
+                    A simple 5-step process to navigate any emotional situation with clarity and wisdom
+                </p>
+            </div>
+            
+            <div class="arise-overview">
+                <div class="arise-step step-a">
+                    <h3>A</h3>
+                    <h4>ACKNOWLEDGE</h4>
+                    <p>Recognize and name what you're feeling without judgment</p>
+                </div>
+                
+                <div class="arise-step step-r">
+                    <h3>R</h3>
+                    <h4>REFLECT</h4>
+                    <p>Pause and examine the source and message of the emotion</p>
+                </div>
+                
+                <div class="arise-step step-i">
+                    <h3>I</h3>
+                    <h4>INVESTIGATE</h4>
+                    <p>Explore your options and possible responses</p>
+                </div>
+                
+                <div class="arise-step step-s">
+                    <h3>S</h3>
+                    <h4>SELECT</h4>
+                    <p>Choose your response based on your values and goals</p>
+                </div>
+                
+                <div class="arise-step step-e">
+                    <h3>E</h3>
+                    <h4>EXECUTE</h4>
+                    <p>Take action and learn from the experience</p>
+                </div>
+            </div>
+            
+            <div class="arise-process">
+                <h3 style="text-align: center; color: #2c3e50; margin-bottom: 25px;">🔄 Step-by-Step Process</h3>
+                
+                <div class="process-step">
+                    <div class="step-icon icon-a">A</div>
+                    <div>
+                        <h4>ACKNOWLEDGE the Emotion</h4>
+                        <p><strong>What to do:</strong> "I notice I'm feeling..." <br>
+                        <strong>Key phrases:</strong> "Right now I'm experiencing..." / "I can feel..."</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon icon-r">R</div>
+                    <div>
+                        <h4>REFLECT on the Source</h4>
+                        <p><strong>What to ask:</strong> "What triggered this feeling?" / "What is this emotion trying to tell me?"<br>
+                        <strong>Key phrases:</strong> "This might be because..." / "The message here could be..."</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon icon-i">I</div>
+                    <div>
+                        <h4>INVESTIGATE Your Options</h4>
+                        <p><strong>What to explore:</strong> "What are my choices here?" / "How could I respond?"<br>
+                        <strong>Key phrases:</strong> "I could..." / "My options include..." / "Another way would be..."</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon icon-s">S</div>
+                    <div>
+                        <h4>SELECT Your Response</h4>
+                        <p><strong>What to consider:</strong> "Which option aligns with my values?" / "What serves my growth?"<br>
+                        <strong>Key phrases:</strong> "I choose to..." / "The best response is..." / "I will..."</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-icon icon-e">E</div>
+                    <div>
+                        <h4>EXECUTE and Learn</h4>
+                        <p><strong>What to do:</strong> Take action and observe results / "What did I learn?"<br>
+                        <strong>Key phrases:</strong> "Next time I'll..." / "This taught me..." / "I learned that..."</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scenario-cards">
+                <div class="scenario-card">
+                    <h4>🤬 When You're Angry</h4>
+                    <p><strong>A:</strong> "I'm feeling furious right now"<br>
+                    <strong>R:</strong> "Someone crossed my boundary"<br>
+                    <strong>I:</strong> "I could yell, walk away, or address it calmly"<br>
+                    <strong>S:</strong> "I'll take a breath and speak my truth respectfully"<br>
+                    <strong>E:</strong> Have the conversation and reflect on the outcome</p>
+                </div>
+                
+                <div class="scenario-card">
+                    <h4>😰 When You're Anxious</h4>
+                    <p><strong>A:</strong> "I notice anxiety building in my chest"<br>
+                    <strong>R:</strong> "I'm worried about the unknown outcome"<br>
+                    <strong>I:</strong> "I could catastrophize, prepare, or practice acceptance"<br>
+                    <strong>S:</strong> "I'll prepare what I can and release what I can't control"<br>
+                    <strong>E:</strong> Take practical steps and practice mindfulness</p>
+                </div>
+                
+                <div class="scenario-card">
+                    <h4>😢 When You're Sad</h4>
+                    <p><strong>A:</strong> "I'm feeling deep sadness"<br>
+                    <strong>R:</strong> "I'm grieving a loss or disappointment"<br>
+                    <strong>I:</strong> "I could suppress it, express it, or honor it"<br>
+                    <strong>S:</strong> "I'll allow myself to feel and seek comfort"<br>
+                    <strong>E:</strong> Cry, talk to someone, or write in a journal</p>
+                </div>
+                
+                <div class="scenario-card">
+                    <h4>😤 When You're Frustrated</h4>
+                    <p><strong>A:</strong> "I'm experiencing frustration"<br>
+                    <strong>R:</strong> "Something isn't going as planned"<br>
+                    <strong>I:</strong> "I could force it, adapt, or take a break"<br>
+                    <strong>S:</strong> "I'll step back and try a different approach"<br>
+                    <strong>E:</strong> Take a break, then return with fresh perspective</p>
+                </div>
+            </div>
+            
+            <div class="practice-section">
+                <h3>📝 Practice Template</h3>
+                <p>Use this template to practice the ARISE method with your current emotional situation:</p>
+                
+                <p><strong>🅰️ ACKNOWLEDGE:</strong> What emotion am I feeling right now?</p>
+                <textarea class="textarea-field" placeholder="I notice I'm feeling..."></textarea>
+                
+                <p><strong>🆁 REFLECT:</strong> What triggered this emotion? What is it trying to tell me?</p>
+                <textarea class="textarea-field" placeholder="This feeling might be because... The message could be..."></textarea>
+                
+                <p><strong>ℹ️ INVESTIGATE:</strong> What are my options for responding?</p>
+                <textarea class="textarea-field" placeholder="I could... My options include... Another way would be..."></textarea>
+                
+                <p><strong>🆂 SELECT:</strong> Which response aligns with my values and serves my growth?</p>
+                <textarea class="textarea-field" placeholder="I choose to... because it..."></textarea>
+                
+                <p><strong>🅴 EXECUTE:</strong> What action will I take? How will I learn from this?</p>
+                <textarea class="textarea-field" placeholder="I will... and I'll pay attention to..."></textarea>
+            </div>
+            
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>⚡ Quick Start Tips</h4>
+                    <ul style="margin-left: 15px;">
+                        <li>Start with just acknowledging the emotion</li>
+                        <li>Don't rush through the steps</li>
+                        <li>It's okay to cycle back to earlier steps</li>
+                    </ul>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>🎯 For Intense Emotions</h4>
+                    <ul style="margin-left: 15px;">
+                        <li>Take 3 deep breaths before starting</li>
+                        <li>Write down each step</li>
+                        <li>Seek support if needed</li>
+                    </ul>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>🔄 Make It Habit</h4>
+                    <ul style="margin-left: 15px;">
+                        <li>Practice with small emotions first</li>
+                        <li>Use the same trigger phrase: "Let me ARISE"</li>
+                        <li>Review your progress weekly</li>
+                    </ul>
+                </div>
+                
+                <div class="tip-card">
+                    <h4>📱 On-the-Go Version</h4>
+                    <ul style="margin-left: 15px;">
+                        <li>Ask: "What am I feeling and why?"</li>
+                        <li>Then: "What are my choices?"</li>
+                        <li>Finally: "What serves me best?"</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="quick-guide">
+                <h3>🎯 Remember</h3>
+                <p style="text-align: center; font-size: 1.1em;">
+                    <strong>Emotions are information, not instructions.</strong><br>
+                    The ARISE method helps you receive the message without being controlled by the messenger.
+                </p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🌱 Part of your 7-Day Journey to Authentic Self-Discovery</p>
+            <p>Master your emotional intelligence with this powerful navigation tool</p>
+        </div>
+    </div>
+</body>
+</html>

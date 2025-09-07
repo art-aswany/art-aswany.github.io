@@ -1,0 +1,157 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#fef7ed"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">Seven Days Authenticity Integration</text>
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6b7280">A step-by-step journey to integrate authentic living</text>
+  
+  <!-- Day 1 -->
+  <rect x="60" y="120" width="150" height="120" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" rx="8"/>
+  <circle cx="135" cy="140" r="15" fill="#3b82f6"/>
+  <text x="135" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1</text>
+  <text x="135" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">FOUNDATION</text>
+  <text x="135" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Core values ID</text>
+  <text x="135" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Strengths audit</text>
+  <text x="135" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Purpose exploration</text>
+  <text x="135" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <!-- Days 2-7 similar pattern -->
+  <rect x="230" y="120" width="150" height="120" fill="#dcfce7" stroke="#22c55e" stroke-width="2" rx="8"/>
+  <circle cx="305" cy="140" r="15" fill="#22c55e"/>
+  <text x="305" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2</text>
+  <text x="305" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a34a">AWARENESS</text>
+  <text x="305" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Life audit</text>
+  <text x="305" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Mask identification</text>
+  <text x="305" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Energy mapping</text>
+  <text x="305" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <rect x="400" y="120" width="150" height="120" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="8"/>
+  <circle cx="475" cy="140" r="15" fill="#f59e0b"/>
+  <text x="475" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3</text>
+  <text x="475" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">ALIGNMENT</text>
+  <text x="475" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Gap analysis</text>
+  <text x="475" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Priority setting</text>
+  <text x="475" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Action planning</text>
+  <text x="475" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <rect x="570" y="120" width="150" height="120" fill="#fce7f3" stroke="#ec4899" stroke-width="2" rx="8"/>
+  <circle cx="645" cy="140" r="15" fill="#ec4899"/>
+  <text x="645" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4</text>
+  <text x="645" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#db2777">EXPRESSION</text>
+  <text x="645" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Voice finding</text>
+  <text x="645" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Boundary setting</text>
+  <text x="645" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Truth telling</text>
+  <text x="645" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <rect x="740" y="120" width="150" height="120" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2" rx="8"/>
+  <circle cx="815" cy="140" r="15" fill="#8b5cf6"/>
+  <text x="815" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">5</text>
+  <text x="815" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">CONNECTION</text>
+  <text x="815" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Relationship building</text>
+  <text x="815" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Trust development</text>
+  <text x="815" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Vulnerability practice</text>
+  <text x="815" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <rect x="910" y="120" width="150" height="120" fill="#fed7d7" stroke="#f56565" stroke-width="2" rx="8"/>
+  <circle cx="985" cy="140" r="15" fill="#f56565"/>
+  <text x="985" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">6</text>
+  <text x="985" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e53e3e">GROWTH</text>
+  <text x="985" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Comfort challenging</text>
+  <text x="985" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Learning embrace</text>
+  <text x="985" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Resilience building</text>
+  <text x="985" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <rect x="1080" y="120" width="150" height="120" fill="#e6fffa" stroke="#38b2ac" stroke-width="2" rx="8"/>
+  <circle cx="1155" cy="140" r="15" fill="#38b2ac"/>
+  <text x="1155" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">7</text>
+  <text x="1155" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c7a7b">INTEGRATION</text>
+  <text x="1155" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Daily practices</text>
+  <text x="1155" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Weekly review</text>
+  <text x="1155" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Future planning</text>
+  <text x="1155" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Score: ___/10</text>
+  
+  <!-- Total score -->
+  <rect x="500" y="260" width="200" height="50" fill="#1e293b" stroke="#475569" stroke-width="2" rx="8"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">TOTAL SCORE</text>
+  <text x="600" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">_____ / 70</text>
+  
+  <!-- Weekly reflection -->
+  <rect x="60" y="330" width="1170" height="180" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" rx="10"/>
+  <rect x="70" y="340" width="1150" height="35" fill="#475569" rx="6"/>
+  <text x="645" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">WEEKLY REFLECTION</text>
+  
+  <rect x="80" y="390" width="350" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="255" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">Biggest Breakthrough</text>
+  <text x="255" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="255" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="255" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="255" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  
+  <rect x="450" y="390" width="350" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="625" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">Main Challenge</text>
+  <text x="625" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="625" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="625" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="625" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  
+  <rect x="820" y="390" width="350" height="100" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="995" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">Next Week Focus</text>
+  <text x="995" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="995" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="995" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  <text x="995" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">_____________________________</text>
+  
+  <!-- Daily practices -->
+  <rect x="60" y="530" width="1170" height="160" fill="#fffbeb" stroke="#f59e0b" stroke-width="2" rx="10"/>
+  <rect x="70" y="540" width="1150" height="35" fill="#f59e0b" rx="6"/>
+  <text x="645" y="562" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">DAILY PRACTICE FRAMEWORK</text>
+  
+  <rect x="80" y="590" width="360" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="260" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">Morning (10 min)</text>
+  <text x="260" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Values check-in and intention setting</text>
+  <text x="260" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Energy audit and focus selection</text>
+  <text x="260" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Authentic action commitment</text>
+  
+  <rect x="460" y="590" width="360" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="640" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">Evening (10 min)</text>
+  <text x="640" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Authenticity wins reflection</text>
+  <text x="640" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Challenge areas identification</text>
+  <text x="640" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Tomorrow's focus planning</text>
+  
+  <rect x="840" y="590" width="330" height="80" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="1005" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">Weekly Review (30 min)</text>
+  <text x="1005" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Progress assessment and scoring</text>
+  <text x="1005" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Breakthrough and challenge analysis</text>
+  <text x="1005" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">Next week priority setting</text>
+  
+  <!-- Success indicators -->
+  <rect x="60" y="710" width="1170" height="120" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="10"/>
+  <rect x="70" y="720" width="1150" height="30" fill="#22c55e" rx="6"/>
+  <text x="645" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">SUCCESS INDICATORS</text>
+  
+  <rect x="80" y="760" width="270" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="215" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Week Completion</text>
+  <text x="215" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ All 7 days completed</text>
+  <text x="215" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Daily practices established</text>
+  
+  <rect x="370" y="760" width="270" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="505" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Self-Awareness</text>
+  <text x="505" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Values clarity increased</text>
+  <text x="505" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Authentic voice found</text>
+  
+  <rect x="660" y="760" width="270" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="795" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Relationships</text>
+  <text x="795" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Deeper connections made</text>
+  <text x="795" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Boundaries respected</text>
+  
+  <rect x="950" y="760" width="270" height="60" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="1085" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#16a34a">Life Alignment</text>
+  <text x="1085" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Actions match values</text>
+  <text x="1085" y="810" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">□ Energy increased</text>
+  
+  <!-- Footer -->
+  <text x="600" y="860" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Seven Days to Transform Your Life - One Authentic Choice at a Time</text>
+  <text x="600" y="885" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Progress over perfection, consistency over intensity</text>
+  
+</svg>

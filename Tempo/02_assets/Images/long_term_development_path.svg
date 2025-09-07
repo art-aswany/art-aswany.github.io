@@ -1,0 +1,163 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)">
+  
+  <!-- Title Section -->
+  <rect x="40" y="40" width="1120" height="60" fill="#1e293b" rx="10"/>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">Long-Term Development Path: Your Lifelong Journey</text>
+  
+  <!-- Timeline Path -->
+  <path d="M 100 180 Q 300 160 500 180 T 900 180 T 1100 200" stroke="#4f46e5" stroke-width="6" fill="none"/>
+  
+  <!-- Year 1: Foundation -->
+  <circle cx="150" cy="175" r="25" fill="#ef4444" stroke="#dc2626" stroke-width="3"/>
+  <text x="150" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Y1</text>
+  
+  <rect x="80" y="220" width="140" height="160" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="10"/>
+  <text x="150" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">FOUNDATION</text>
+  <text x="150" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Year 1 Focus:</text>
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Values discovery</text>
+  <text x="150" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Self-awareness</text>
+  <text x="150" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Basic boundaries</text>
+  <text x="150" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Emotional literacy</text>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Daily practices</text>
+  <text x="150" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#dc2626">Key Milestone:</text>
+  <text x="150" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Clear value system</text>
+  
+  <!-- Years 2-3: Integration -->
+  <circle cx="350" cy="168" r="25" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+  <text x="350" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2-3</text>
+  
+  <rect x="280" y="220" width="140" height="160" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" rx="10"/>
+  <text x="350" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">INTEGRATION</text>
+  <text x="350" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Years 2-3 Focus:</text>
+  <text x="350" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Life restructuring</text>
+  <text x="350" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Relationship evolution</text>
+  <text x="350" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Career alignment</text>
+  <text x="350" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Advanced boundaries</text>
+  <text x="350" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Consistent authenticity</text>
+  <text x="350" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#d97706">Key Milestone:</text>
+  <text x="350" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Integrated lifestyle</text>
+  
+  <!-- Years 4-6: Mastery -->
+  <circle cx="550" cy="175" r="25" fill="#10b981" stroke="#059669" stroke-width="3"/>
+  <text x="550" y="182" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4-6</text>
+  
+  <rect x="480" y="220" width="140" height="160" fill="#ecfdf5" stroke="#10b981" stroke-width="2" rx="10"/>
+  <text x="550" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">MASTERY</text>
+  <text x="550" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Years 4-6 Focus:</text>
+  <text x="550" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Advanced emotional skills</text>
+  <text x="550" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Complex decision making</text>
+  <text x="550" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Conflict resolution</text>
+  <text x="550" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Leadership skills</text>
+  <text x="550" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Mentoring others</text>
+  <text x="550" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#059669">Key Milestone:</text>
+  <text x="550" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Authentic mastery</text>
+  
+  <!-- Years 7-10: Leadership -->
+  <circle cx="750" cy="170" r="25" fill="#3b82f6" stroke="#2563eb" stroke-width="3"/>
+  <text x="750" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">7-10</text>
+  
+  <rect x="680" y="220" width="140" height="160" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="10"/>
+  <text x="750" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2563eb">LEADERSHIP</text>
+  <text x="750" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Years 7-10 Focus:</text>
+  <text x="750" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Inspire transformation</text>
+  <text x="750" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Community building</text>
+  <text x="750" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">System change</text>
+  <text x="750" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Wisdom sharing</text>
+  <text x="750" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Cultural impact</text>
+  <text x="750" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2563eb">Key Milestone:</text>
+  <text x="750" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Authentic leadership</text>
+  
+  <!-- Years 11+: Legacy -->
+  <circle cx="950" cy="178" r="25" fill="#8b5cf6" stroke="#7c3aed" stroke-width="3"/>
+  <text x="950" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">11+</text>
+  
+  <rect x="880" y="220" width="140" height="160" fill="#f3e8ff" stroke="#8b5cf6" stroke-width="2" rx="10"/>
+  <text x="950" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">LEGACY</text>
+  <text x="950" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1f2937">Years 11+ Focus:</text>
+  <text x="950" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Generational impact</text>
+  <text x="950" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Knowledge transfer</text>
+  <text x="950" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Global influence</text>
+  <text x="950" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Wisdom preservation</text>
+  <text x="950" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Cultural evolution</text>
+  <text x="950" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c3aed">Key Milestone:</text>
+  <text x="950" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Lasting legacy</text>
+  
+  <!-- Development Areas -->
+  <rect x="80" y="400" width="1040" height="120" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" rx="10"/>
+  <rect x="90" y="410" width="1020" height="25" fill="#374151" rx="6"/>
+  <text x="600" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">CONTINUOUS DEVELOPMENT AREAS</text>
+  
+  <!-- Success Factors -->
+  <rect x="100" y="445" width="200" height="65" fill="#fef5e7" stroke="#f6ad55" stroke-width="1" rx="6"/>
+  <text x="200" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c05621">Emotional Intelligence</text>
+  <text x="200" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Self-regulation mastery</text>
+  <text x="200" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Empathy expansion</text>
+  <text x="200" y="501" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Social skill refinement</text>
+  
+  <rect x="320" y="445" width="200" height="65" fill="#f0f9ff" stroke="#38bdf8" stroke-width="1" rx="6"/>
+  <text x="420" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0369a1">Communication Skills</text>
+  <text x="420" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Advanced listening</text>
+  <text x="420" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Difficult conversations</text>
+  <text x="420" y="501" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Authentic expression</text>
+  
+  <rect x="540" y="445" width="200" height="65" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="6"/>
+  <text x="640" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">Relationship Mastery</text>
+  <text x="640" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Intimate connections</text>
+  <text x="640" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Family dynamics</text>
+  <text x="640" y="501" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Professional bonds</text>
+  
+  <rect x="760" y="445" width="200" height="65" fill="#fdf4ff" stroke="#a855f7" stroke-width="1" rx="6"/>
+  <text x="860" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7e22ce">Purpose Evolution</text>
+  <text x="860" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Mission refinement</text>
+  <text x="860" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Impact expansion</text>
+  <text x="860" y="501" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Legacy creation</text>
+  
+  <rect x="980" y="445" width="140" height="65" fill="#fefcbf" stroke="#eab308" stroke-width="1" rx="6"/>
+  <text x="1050" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a16207">Wisdom Integration</text>
+  <text x="1050" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Experience synthesis</text>
+  <text x="1050" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Pattern recognition</text>
+  <text x="1050" y="501" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Knowledge sharing</text>
+  
+  <!-- Key Success Factors -->
+  <rect x="80" y="540" width="1040" height="120" fill="#f1f5f9" stroke="#64748b" stroke-width="2" rx="10"/>
+  <rect x="90" y="550" width="1020" height="25" fill="#475569" rx="6"/>
+  <text x="600" y="567" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">KEY SUCCESS FACTORS FOR LONG-TERM GROWTH</text>
+  
+  <rect x="100" y="585" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="200" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Consistent Practice</text>
+  <text x="200" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Daily commitment to growth</text>
+  <text x="200" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Small steps compound</text>
+  <text x="200" y="641" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Never stop learning</text>
+  
+  <rect x="320" y="585" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="420" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Adaptive Mindset</text>
+  <text x="420" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Embrace change</text>
+  <text x="420" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Learn from setbacks</text>
+  <text x="420" y="641" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Stay curious</text>
+  
+  <rect x="540" y="585" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="640" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Community Support</text>
+  <text x="640" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Growth-minded people</text>
+  <text x="640" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Mentors and mentees</text>
+  <text x="640" y="641" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Accountability partners</text>
+  
+  <rect x="760" y="585" width="200" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="860" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Purpose Clarity</text>
+  <text x="860" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Clear why drives action</text>
+  <text x="860" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Regular purpose review</text>
+  <text x="860" y="641" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Align with values</text>
+  
+  <rect x="980" y="585" width="140" height="65" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" rx="6"/>
+  <text x="1050" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937">Patient Persistence</text>
+  <text x="1050" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Trust the process</text>
+  <text x="1050" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Celebrate progress</text>
+  <text x="1050" y="641" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#374151">Stay committed</text>
+  
+  <!-- Footer Message -->
+  <rect x="80" y="680" width="1040" height="100" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2" rx="10"/>
+  <text x="600" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e293b">Your Authentic Journey: A Lifetime of Growth and Impact</text>
+  <text x="600" y="735" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#374151">Every phase builds upon the last, creating an ever-expanding circle of authentic influence</text>
+  <text x="600" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">The path of authenticity never ends - it only deepens, enriches, and multiplies its impact</text>
+  <text x="600" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">Your greatest contribution may be the person you become and the lives you touch along the way</text>
+  
+</svg>

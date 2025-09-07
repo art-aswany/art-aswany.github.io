@@ -1,0 +1,135 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#FEFEFE"/>
+  
+  <!-- Title -->
+  <text x="600" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2C3E50">
+    ARISE Method Flowchart
+  </text>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#2C3E50">
+    Step-by-Step Emotional Processing Flow
+  </text>
+  
+  <!-- Start -->
+  <ellipse cx="600" cy="130" rx="80" ry="30" fill="#F0F8FF" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">EMOTIONAL</text>
+  <text x="600" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">TRIGGER</text>
+  
+  <path d="M 600 160 L 600 190" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step A -->
+  <rect x="500" y="200" width="200" height="60" rx="10" fill="#E8F5E8" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">ACKNOWLEDGE</text>
+  <text x="600" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Notice and accept emotion</text>
+  <text x="600" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">without judgment</text>
+  
+  <rect x="750" y="200" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#E8F5E8" stroke-width="1"/>
+  <text x="830" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Questions:</text>
+  <text x="830" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What am I feeling now?</text>
+  <text x="830" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Can I allow this feeling?</text>
+  
+  <path d="M 600 260 L 600 290" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step R -->
+  <rect x="500" y="300" width="200" height="60" rx="10" fill="#FFF9E6" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">REFLECT</text>
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Explore deeper meaning</text>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">and source</text>
+  
+  <rect x="750" y="300" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#FFF9E6" stroke-width="1"/>
+  <text x="830" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Questions:</text>
+  <text x="830" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What triggered this?</text>
+  <text x="830" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What is it telling me?</text>
+  
+  <path d="M 600 360 L 600 390" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step I -->
+  <rect x="500" y="400" width="200" height="60" rx="10" fill="#F3E8FF" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">INVESTIGATE</text>
+  <text x="600" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Question patterns</text>
+  <text x="600" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">and underlying needs</text>
+  
+  <rect x="750" y="400" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#F3E8FF" stroke-width="1"/>
+  <text x="830" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Questions:</text>
+  <text x="830" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">Is this a pattern?</text>
+  <text x="830" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What do I need?</text>
+  
+  <path d="M 600 460 L 600 490" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step S -->
+  <rect x="500" y="500" width="200" height="60" rx="10" fill="#FFF0F5" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">SHIFT</text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Choose conscious response</text>
+  <text x="600" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">aligned with values</text>
+  
+  <rect x="750" y="500" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#FFF0F5" stroke-width="1"/>
+  <text x="830" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Questions:</text>
+  <text x="830" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What serves me best?</text>
+  <text x="830" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">How honor my values?</text>
+  
+  <path d="M 600 560 L 600 590" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step E -->
+  <rect x="500" y="600" width="200" height="60" rx="10" fill="#F0F8FF" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">EVOLVE</text>
+  <text x="600" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Integrate learning</text>
+  <text x="600" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">and grow</text>
+  
+  <rect x="750" y="600" width="160" height="60" rx="8" fill="#FFFFFF" stroke="#F0F8FF" stroke-width="1"/>
+  <text x="830" y="620" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2C3E50">Questions:</text>
+  <text x="830" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">What did I learn?</text>
+  <text x="830" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2C3E50">How can I grow?</text>
+  
+  <path d="M 600 660 L 600 690" stroke="#2C3E50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- End -->
+  <ellipse cx="600" cy="720" rx="100" ry="30" fill="#FFFACD" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">EMOTIONAL MASTERY</text>
+  <text x="600" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">and GROWTH</text>
+  
+  <!-- Side Panel -->
+  <rect x="50" y="200" width="400" height="460" rx="12" fill="#F8F9FA" stroke="#2C3E50" stroke-width="2"/>
+  <text x="250" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">ARISE Key Points</text>
+  
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">A - ACKNOWLEDGE:</text>
+  <text x="70" y="275" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Non-judgmental awareness</text>
+  <text x="70" y="290" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Accept without resistance</text>
+  
+  <text x="70" y="315" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">R - REFLECT:</text>
+  <text x="70" y="330" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Look beyond surface reactions</text>
+  <text x="70" y="345" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Connect to deeper meaning</text>
+  
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">I - INVESTIGATE:</text>
+  <text x="70" y="385" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Explore patterns and triggers</text>
+  <text x="70" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Discover unmet needs</text>
+  
+  <text x="70" y="425" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">S - SHIFT:</text>
+  <text x="70" y="440" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Choose response over reaction</text>
+  <text x="70" y="455" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Align with authentic values</text>
+  
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">E - EVOLVE:</text>
+  <text x="70" y="495" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Extract wisdom from experience</text>
+  <text x="70" y="510" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Build emotional intelligence</text>
+  
+  <text x="70" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Benefits:</text>
+  <text x="70" y="550" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Transforms reactivity to wisdom</text>
+  <text x="70" y="565" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Creates space for conscious choice</text>
+  <text x="70" y="580" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Builds authentic self-knowledge</text>
+  <text x="70" y="595" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">• Promotes continuous growth</text>
+  
+  <text x="70" y="620" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2C3E50">Remember:</text>
+  <text x="70" y="635" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Each cycle builds mastery</text>
+  <text x="70" y="650" font-family="Arial, sans-serif" font-size="12" fill="#2C3E50">Practice creates progress</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2C3E50"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom Message -->
+  <rect x="100" y="780" width="1000" height="80" rx="12" fill="#E8F5E8" stroke="#2C3E50" stroke-width="2"/>
+  <text x="600" y="805" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2C3E50">ARISE Flowchart: Your Path to Emotional Mastery</text>
+  <text x="600" y="825" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">Follow this step-by-step process to transform emotional reactions into conscious responses.</text>
+  <text x="600" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2C3E50">Each cycle through ARISE builds emotional intelligence and authentic self-awareness.</text>
+</svg>

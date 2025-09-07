@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identity Archaeology Toolkit</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 210mm;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .section {
+            background: white;
+            border: 2px solid #e8ecf4;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 22px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 8px;
+        }
+        
+        .section h3 {
+            color: #764ba2;
+            font-size: 18px;
+            margin-bottom: 12px;
+            margin-top: 20px;
+        }
+        
+        .input-field {
+            border: 2px solid #e8ecf4;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            min-height: 60px;
+            background: #f8f9fa;
+            width: 100%;
+        }
+        
+        .input-field.large {
+            min-height: 120px;
+        }
+        
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-radius: 6px;
+            background: #f8f9fa;
+            border: 1px solid #e8ecf4;
+        }
+        
+        .checkbox-item input {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        
+        .scale-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            flex-direction: column;
+        }
+        
+        .scale-numbers {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin: 10px 0;
+        }
+        
+        .scale-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .scale-numbers input {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .scale-labels {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .scale-labels .left {
+            text-align: center;
+        }
+        
+        .scale-labels .right {
+            text-align: center;
+            line-height: 1.2;
+        }
+        
+        .timeline {
+            display: grid;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 15px;
+            align-items: start;
+        }
+        
+        .timeline-age {
+            background: #667eea;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .instructions {
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .instructions h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .tip {
+            background: #e8f4fd;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px 0 0 8px;
+        }
+        
+        .tip strong {
+            color: #667eea;
+        }
+        
+        .action-box {
+            background: #f8f9fa;
+            border: 2px dashed #667eea;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                max-width: none;
+            }
+            .section {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Identity Archaeology Toolkit</h1>
+        <p>Uncover the layers of your authentic self through deep personal excavation</p>
+    </div>
+
+    <div class="instructions">
+        <h3>📋 How to Use This Toolkit:</h3>
+        <p>• This resource helps you "excavate" the layers of your personal identity step by step</p>
+        <p>• Take your time answering each question honestly and deeply</p>
+        <p>• There are no right or wrong answers - only authentic ones</p>
+        <p>• Use this toolkit in a quiet, comfortable environment where you can reflect freely</p>
+    </div>
+
+    <div class="section">
+        <h2>🏛️ Layer 1: The Surface Identity</h2>
+        <p>Start with what others see - the outer layer of your personality</p>
+        
+        <h3>How do others typically describe you?</h3>
+        <div class="checkbox-group">
+            <div class="checkbox-item">
+                <input type="checkbox" id="friendly">
+                <label for="friendly">Friendly</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="serious">
+                <label for="serious">Serious</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="funny">
+                <label for="funny">Funny</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="quiet">
+                <label for="quiet">Quiet</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="energetic">
+                <label for="energetic">Energetic</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="creative">
+                <label for="creative">Creative</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="organized">
+                <label for="organized">Organized</label>
+            </div>
+            <div class="checkbox-item">
+                <input type="checkbox" id="spontaneous">
+                <label for="spontaneous">Spontaneous</label>
+            </div>
+        </div>
+
+        <h3>The roles you play in your daily life:</h3>
+        <div class="input-field large"></div>
+
+        <h3>What do you want people to remember you for?</h3>
+        <div class="input-field large"></div>
+    </div>
+
+    <div class="section">
+        <h2>🔬 Layer 2: The Inner Identity</h2>
+        <p>Now, dig deeper to discover who you really are beneath the surface</p>
+        
+        <h3>What truly makes you happy (not what you think should make you happy)?</h3>
+        <div class="input-field large"></div>
+
+        <h3>What are your deepest fears?</h3>
+        <div class="input-field large"></div>
+
+        <h3>When do you feel most authentic?</h3>
+        <div class="input-field large"></div>
+
+        <div class="tip">
+            <strong>💡 Tip:</strong> Don't judge your answers. Write what you truly feel, even if it seems contradictory or illogical.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📚 Layer 3: Personal History</h2>
+        <p>Explore how your past experiences have shaped you</p>
+        
+        <h3>Map of Influential Experiences:</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-age">Childhood<br>(0-12)</div>
+                <div class="input-field">An event or experience that shaped your personality:</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-age">Teens<br>(13-18)</div>
+                <div class="input-field">An experience that shaped your worldview:</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-age">Young Adult<br>(19-25)</div>
+                <div class="input-field">A decision that changed your life's direction:</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-age">Present</div>
+                <div class="input-field">The biggest challenge you're facing now:</div>
+            </div>
+        </div>
+
+        <h3>People who have influenced your personality most:</h3>
+        <div class="input-field large"></div>
+    </div>
+
+    <div class="section">
+        <h2>💎 Layer 4: The Authentic Core</h2>
+        <p>Now we reach the deepest layer - the essence of who you truly are</p>
+        
+        <h3>If you weren't afraid of anything, how would you live your life?</h3>
+        <div class="input-field large"></div>
+
+        <h3>What do you believe strongly, even if no one agrees with you?</h3>
+        <div class="input-field large"></div>
+
+        <h3>What is the "inner calling" you hear but sometimes ignore?</h3>
+        <div class="input-field large"></div>
+
+        <h3>Rate how well your current life aligns with your authentic identity:</h3>
+        <div class="scale-container">
+            <div class="scale-numbers">
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="1">
+                    <span>1</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="2">
+                    <span>2</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="3">
+                    <span>3</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="4">
+                    <span>4</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="5">
+                    <span>5</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="6">
+                    <span>6</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="7">
+                    <span>7</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="8">
+                    <span>8</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="9">
+                    <span>9</span>
+                </div>
+                <div class="scale-item">
+                    <input type="radio" name="authenticity" value="10">
+                    <span>10</span>
+                </div>
+            </div>
+            <div class="scale-labels">
+                <div class="left">Not aligned<br>at all</div>
+                <div class="right">Perfectly<br>aligned</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🔮 Action Plan: From Discovery to Application</h2>
+        
+        <h3>Based on your discoveries, what needs to change in your life?</h3>
+        <div class="input-field large"></div>
+
+        <h3>Three specific actions you can take this week to honor your authentic self:</h3>
+        <div class="action-box">
+            <strong>Action 1:</strong>
+            <div class="input-field"></div>
+            <strong>Action 2:</strong>
+            <div class="input-field"></div>
+            <strong>Action 3:</strong>
+            <div class="input-field"></div>
+        </div>
+
+        <div class="tip">
+            <strong>🌟 Remember:</strong> Authenticity is a journey, not a destination. Use these insights as a compass to guide your daily choices and long-term decisions.
+        </div>
+    </div>
+
+    <div class="section" style="background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%); color: white;">
+        <h2 style="color: white; border-bottom: 3px solid white;">📝 Personal Reflection Notes</h2>
+        <p style="margin-bottom: 15px;">Use this space for any additional thoughts, insights, or "aha moments" from your identity archaeology:</p>
+        <div class="input-field large" style="background: rgba(255,255,255,0.9); color: #2c3e50;"></div>
+    </div>
+</body>
+</html>

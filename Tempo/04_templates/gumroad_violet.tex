@@ -1,0 +1,32 @@
+% Gumroad Violet (Purple accent)
+\documentclass[12pt]{book}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\setmainfont{Helvetica Neue}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+
+\definecolor{accent}{HTML}{6C5CE7}
+\definecolor{muted}{HTML}{f6f5ff}
+
+\setlength{\parskip}{0.8em}
+\setlength{\parindent}{0pt}
+\linespread{1.4}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\textcolor{accent}{7 Days to Self-Discovery}}
+\fancyfoot[C]{\thepage}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Huge\bfseries\color{accent}}{\chaptername\ \thechapter}{20pt}{\Huge}
+
+\newtcolorbox{quoteBox}{
+  colback=muted, colframe=accent, boxrule=0.5pt, left=10pt,right=10pt
+}
+
+\begin{document}
+$body$
+\end{document}

@@ -1,0 +1,228 @@
+<svg viewBox="0 0 3600 2700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Premium Gradient -->
+  <defs>
+    <linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A252F;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#2C3E50;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#2C3E50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A252F;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="centerGlow" cx="25%" cy="45%" r="40%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#3498DB;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#1A252F;stop-opacity:0" />
+    </radialGradient>
+    
+    <radialGradient id="backGlow" cx="75%" cy="45%" r="40%">
+      <stop offset="0%" style="stop-color:#27AE60;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#3498DB;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#1A252F;stop-opacity:0" />
+    </radialGradient>
+    
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F1C40F;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F39C12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F1C40F;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <pattern id="premiumPattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="1.5" fill="#ffffff" opacity="0.03"/>
+      <circle cx="0" cy="0" r="1" fill="#27AE60" opacity="0.02"/>
+      <circle cx="60" cy="60" r="1" fill="#27AE60" opacity="0.02"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background for entire cover -->
+  <rect width="3600" height="2700" fill="url(#premiumGradient)"/>
+  <rect width="3600" height="2700" fill="url(#premiumPattern)"/>
+  
+  <!-- FRONT COVER (Left Side) -->
+  <g id="frontCover">
+    <ellipse cx="900" cy="1200" rx="600" ry="800" fill="url(#centerGlow)"/>
+    
+    <!-- Main Central Mirror Design -->
+    <g transform="translate(900,1100)">
+      <!-- Outer ornate frame -->
+      <ellipse cx="0" cy="0" rx="360" ry="480" fill="none" stroke="url(#goldGradient)" stroke-width="8" opacity="0.8"/>
+      <ellipse cx="0" cy="0" rx="340" ry="460" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+      
+      <!-- Inner mirror surface -->
+      <ellipse cx="0" cy="0" rx="320" ry="440" fill="url(#centerGlow)" opacity="0.6"/>
+      <ellipse cx="0" cy="0" rx="300" ry="420" fill="#ffffff" opacity="0.08"/>
+      
+      <!-- Reflection effects -->
+      <ellipse cx="-50" cy="-80" rx="150" ry="200" fill="#ffffff" opacity="0.15"/>
+      <ellipse cx="-80" cy="-120" rx="100" ry="150" fill="#ffffff" opacity="0.1"/>
+    </g>
+    
+    <!-- Day Journey Constellation -->
+    <g stroke="#27AE60" stroke-width="3" fill="none" opacity="0.7">
+      <path d="M 500,700 Q 600,600 700,700"/>
+      <path d="M 700,700 Q 800,600 900,700"/>
+      <path d="M 900,700 Q 1000,600 1100,700"/>
+      <path d="M 1100,700 Q 1200,600 1300,700"/>
+      <path d="M 1300,700 Q 1300,900 1300,1100"/>
+      <path d="M 1300,1100 Q 1200,1200 1100,1100"/>
+      <path d="M 1100,1100 Q 1000,1200 900,1100"/>
+      <path d="M 900,1100 Q 800,1200 700,1100"/>
+      <path d="M 700,1100 Q 600,1200 500,1100"/>
+      <path d="M 500,1100 Q 500,900 500,700"/>
+    </g>
+    
+    <!-- Day markers -->
+    <g filter="url(#glow)">
+      <circle cx="500" cy="700" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="500" cy="700" r="15" fill="#2C3E50"/>
+      <text x="500" y="708" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">1</text>
+      
+      <circle cx="700" cy="700" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="700" cy="700" r="15" fill="#2C3E50"/>
+      <text x="700" y="708" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">2</text>
+      
+      <circle cx="900" cy="700" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="900" cy="700" r="15" fill="#2C3E50"/>
+      <text x="900" y="708" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">3</text>
+      
+      <circle cx="1100" cy="700" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="1100" cy="700" r="15" fill="#2C3E50"/>
+      <text x="1100" y="708" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">4</text>
+      
+      <circle cx="1300" cy="700" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="1300" cy="700" r="15" fill="#2C3E50"/>
+      <text x="1300" y="708" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">5</text>
+      
+      <circle cx="1300" cy="1100" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="1300" cy="1100" r="15" fill="#2C3E50"/>
+      <text x="1300" y="1108" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">6</text>
+      
+      <circle cx="500" cy="1100" r="25" fill="url(#goldGradient)" opacity="0.9"/>
+      <circle cx="500" cy="1100" r="15" fill="#2C3E50"/>
+      <text x="500" y="1108" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">7</text>
+    </g>
+    
+    <!-- Front Title Section -->
+    <text x="900" y="280" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="140" font-weight="bold" filter="url(#glow)">7 DAYS</text>
+    <text x="900" y="410" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="80" font-weight="300">TO</text>
+    <text x="900" y="550" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="110" font-weight="bold" filter="url(#glow)">SELF-DISCOVERY</text>
+    
+    <!-- Enhanced Subtitles -->
+    <text x="900" y="1800" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="52" font-weight="300">UNMASK YOUR TRUE IDENTITY</text>
+    <text x="900" y="1880" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="52" font-weight="300">BUILD AUTHENTIC RELATIONSHIPS</text>
+    <text x="900" y="1960" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="52" font-weight="300">CREATE MEANINGFUL IMPACT</text>
+    
+    <!-- Premium features highlight -->
+    <text x="900" y="2060" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="38" font-weight="500" filter="url(#glow)">• Interactive Workbooks • Bonus Templates • Extended Exercises •</text>
+    
+    <!-- Front Author Section -->
+    <text x="900" y="2260" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="40" font-weight="300">BY</text>
+    <text x="900" y="2330" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="68" font-weight="bold" filter="url(#glow)">ABDOU ASWANY</text>
+    
+    <!-- 7-page stacks in corners -->
+    <g fill="url(#goldGradient)" opacity="0.6">
+      <!-- Top left -->
+      <rect x="100" y="100" width="100" height="3" rx="1"/>
+      <rect x="105" y="110" width="100" height="3" rx="1"/>
+      <rect x="110" y="120" width="100" height="3" rx="1"/>
+      <rect x="115" y="130" width="100" height="3" rx="1"/>
+      <rect x="120" y="140" width="100" height="3" rx="1"/>
+      <rect x="125" y="150" width="100" height="3" rx="1"/>
+      <rect x="130" y="160" width="100" height="3" rx="1"/>
+      
+      <!-- Top right -->
+      <rect x="1600" y="100" width="100" height="3" rx="1"/>
+      <rect x="1595" y="110" width="100" height="3" rx="1"/>
+      <rect x="1590" y="120" width="100" height="3" rx="1"/>
+      <rect x="1585" y="130" width="100" height="3" rx="1"/>
+      <rect x="1580" y="140" width="100" height="3" rx="1"/>
+      <rect x="1575" y="150" width="100" height="3" rx="1"/>
+      <rect x="1570" y="160" width="100" height="3" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- SPINE (Center) -->
+  <g id="spine" transform="translate(1800,0)">
+    <rect x="-50" y="0" width="100" height="2700" fill="url(#premiumGradient)"/>
+    
+    <!-- Spine text -->
+    <g transform="translate(0,1350) rotate(-90)">
+      <text x="0" y="-20" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="48" font-weight="bold">7 DAYS TO SELF-DISCOVERY</text>
+      <text x="0" y="25" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">ABDOU ASWANY</text>
+    </g>
+    
+    <!-- Spine decorative elements -->
+    <circle cx="0" cy="400" r="8" fill="url(#goldGradient)" opacity="0.8"/>
+    <circle cx="0" cy="2300" r="8" fill="url(#goldGradient)" opacity="0.8"/>
+  </g>
+  
+  <!-- BACK COVER (Right Side) -->
+  <g id="backCover" transform="translate(1850,0)">
+    <ellipse cx="900" cy="1200" rx="600" ry="800" fill="url(#backGlow)"/>
+    
+    <!-- Back Cover Content -->
+    <text x="900" y="200" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="72" font-weight="bold">TRANSFORM YOUR LIFE</text>
+    <text x="900" y="280" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="72" font-weight="bold">IN JUST ONE WEEK</text>
+    
+    <!-- Main back cover text -->
+    <text x="900" y="400" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="36" font-weight="400">Are you tired of living behind masks that no longer fit?</text>
+    <text x="900" y="460" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="36" font-weight="400">Ready to discover who you truly are beneath the expectations?</text>
+    
+    <text x="900" y="560" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="500">This powerful 7-day journey will help you:</text>
+    
+    <!-- Benefits list -->
+    <text x="200" y="650" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="500">✓ Unmask your authentic identity and core personality</text>
+    <text x="200" y="720" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="500">✓ Discover your true values and life priorities</text>
+    <text x="200" y="790" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="500">✓ Master emotional intelligence and authentic expression</text>
+    <text x="200" y="860" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="500">✓ Build genuine relationships based on your true self</text>
+    <text x="200" y="930" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="500">✓ Create a personalized blueprint for lifelong authenticity</text>
+    
+    <!-- Testimonial section -->
+    <rect x="150" y="1050" width="1500" height="200" fill="#2C3E50" opacity="0.3" rx="15"/>
+    <text x="900" y="1100" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-style="italic">"This book didn't just change my perspective—it changed my life.</text>
+    <text x="900" y="1150" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-style="italic">For the first time in years, I feel truly aligned with who I am."</text>
+    <text x="900" y="1210" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="28" font-weight="bold">— Sarah M., Life Coach</text>
+    
+    <!-- What's inside -->
+    <text x="900" y="1350" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="48" font-weight="bold">WHAT'S INSIDE:</text>
+    
+    <text x="200" y="1430" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="400">• 24 Interactive exercises and assessments</text>
+    <text x="200" y="1480" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="400">• Practical frameworks for daily authentic living</text>
+    <text x="200" y="1530" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="400">• Real-world examples from diverse backgrounds</text>
+    <text x="200" y="1580" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="400">• Scientifically-backed methods for lasting change</text>
+    <text x="200" y="1630" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="400">• Complete authenticity blueprint template</text>
+    
+    <!-- Enhanced Author credentials section with larger font and box -->
+    <rect x="100" y="1700" width="1600" height="450" fill="#1A252F" opacity="0.8" rx="20"/>
+    <text x="900" y="1760" text-anchor="middle" fill="url(#goldGradient)" font-family="Arial, sans-serif" font-size="48" font-weight="bold">ABOUT THE AUTHOR</text>
+    <text x="900" y="1820" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">Abdou Aswany is a researcher in applied psychology and human development who</text>
+    <text x="900" y="1860" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">combines scientific precision with human sensitivity to create real transformations</text>
+    <text x="900" y="1900" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">in people's lives. He has helped dozens of men and women, young and old,</text>
+    <text x="900" y="1940" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">achieve harmony between their inner selves and outer expression.</text>
+    <text x="900" y="1980" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">He believes that true happiness stems from authenticity and sustainable</text>
+    <text x="900" y="2020" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">personal growth. Now, it's time to share this knowledge with people around</text>
+    <text x="900" y="2060" text-anchor="middle" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="32" font-weight="300">the world, with genuine love that transcends nationalities and cultures.</text>
+    
+    <!-- Category and ISBN area - moved further down -->
+    <text x="200" y="2240" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="28" font-weight="300">CATEGORY: Self-Help / Personal Growth</text>
+    <text x="200" y="2280" fill="#ECF0F1" font-family="Arial, sans-serif" font-size="28" font-weight="300">ISBN: 978-0-XXX-XXXXX-X</text>
+    
+    <!-- Barcode area - moved further down -->
+    <rect x="1300" y="2400" width="200" height="100" fill="#ffffff" opacity="0.9" rx="5"/>
+    <text x="1400" y="2430" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-size="12" font-weight="300">BARCODE</text>
+    <text x="1400" y="2450" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-size="12" font-weight="300">AREA</text>
+    
+    <!-- Premium accent lines - moved further down -->
+    <rect x="150" y="2600" width="1500" height="6" fill="url(#goldGradient)" opacity="0.8"/>
+    <rect x="300" y="2620" width="1200" height="3" fill="#27AE60" opacity="0.6"/>
+  </g>
+  
+</svg>
