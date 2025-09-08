@@ -1,0 +1,113 @@
+--- Images ---
+Image (page): https://art-aswany.github.io/authentic/Images/90_day_implementation_timeline.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/90_day_implementation_timeline.svg
+Image (page): https://art-aswany.github.io/authentic/Images/90_day_restructure_plan.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/90_day_restructure_plan.svg
+Image (page): https://art-aswany.github.io/authentic/Images/arise_method_diagram.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/arise_method_diagram.svg
+Image (page): https://art-aswany.github.io/authentic/Images/arise_method_flowchart.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/arise_method_flowchart.svg
+Image (page): https://art-aswany.github.io/authentic/Images/authentic_vs_imposed_values.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authentic_vs_imposed_values.svg
+Image (page): https://art-aswany.github.io/authentic/Images/authentic_vs_masks.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authentic_vs_masks.svg
+Image (page): https://art-aswany.github.io/authentic/Images/authenticity_blueprint_template.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authenticity_blueprint_template.svg
+Image (page): https://art-aswany.github.io/authentic/Images/authenticity_compass.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/authenticity_compass.svg
+Image (page): https://art-aswany.github.io/authentic/Images/bridge_conflict_resolution.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/bridge_conflict_resolution.svg
+Image (page): https://art-aswany.github.io/authentic/Images/calm_method_diagram.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/calm_method_diagram.svg
+Image (page): https://art-aswany.github.io/authentic/Images/decision_making_compass.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/decision_making_compass.svg
+Image (page): https://art-aswany.github.io/authentic/Images/emotional_intelligence_wheel.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_intelligence_wheel.svg
+Image (page): https://art-aswany.github.io/authentic/Images/emotional_language_map.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_language_map.svg
+Image (page): https://art-aswany.github.io/authentic/Images/emotional_resilience_pillars.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/emotional_resilience_pillars.svg
+Image (page): https://art-aswany.github.io/authentic/Images/enhanced_book_cover.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/enhanced_book_cover.svg
+Image (page): https://art-aswany.github.io/authentic/Images/five_resilience_foundations.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/five_resilience_foundations.svg
+Image (page): https://art-aswany.github.io/authentic/Images/four_level_response_framework.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/four_level_response_framework.svg
+Image (page): https://art-aswany.github.io/authentic/Images/identity_archaeology.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/identity_archaeology.svg
+Image (page): https://art-aswany.github.io/authentic/Images/lifelong_practice_cycle.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/lifelong_practice_cycle.svg
+Image (page): https://art-aswany.github.io/authentic/Images/long_term_development_path.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/long_term_development_path.svg
+Image (page): https://art-aswany.github.io/authentic/Images/pdf_cover.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/pdf_cover.svg
+Image (page): https://art-aswany.github.io/authentic/Images/premium_identity_constellation.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/premium_identity_constellation.svg
+Image (page): https://art-aswany.github.io/authentic/Images/seven_days_integration.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/seven_days_integration.svg
+Image (page): https://art-aswany.github.io/authentic/Images/transformation_timeline.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/transformation_timeline.svg
+Image (page): https://art-aswany.github.io/authentic/Images/universal_values_circle.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/universal_values_circle.svg
+Image (page): https://art-aswany.github.io/authentic/Images/values_boundaries_map.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_boundaries_map.svg
+Image (page): https://art-aswany.github.io/authentic/Images/values_communication_model.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_communication_model.svg
+Image (page): https://art-aswany.github.io/authentic/Images/values_decision_compass.svg
+Image (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Images/values_decision_compass.svg
+
+--- Resources ---
+Resource (page): https://art-aswany.github.io/authentic/Resources/00_Resource_Index.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/00_Resource_Index.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/01_Identity_Archaeology_Toolkit.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/01_Identity_Archaeology_Toolkit.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/02_Mask_Detection_Worksheet.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/02_Mask_Detection_Worksheet.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/03_Personality_Foundation_Assessment.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/03_Personality_Foundation_Assessment.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/04_Temperament_Discovery_Framework.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/04_Temperament_Discovery_Framework.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/05_Energy_Pattern_Analyzer.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/05_Energy_Pattern_Analyzer.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/06_Intrinsic_Motivation_Compass.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/06_Intrinsic_Motivation_Compass.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/07_Natural_Strengths_Identifier.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/07_Natural_Strengths_Identifier.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/08_Foundation_Integration_Dashboard.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/08_Foundation_Integration_Dashboard.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/09_Core_Values_Discovery_Guide.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/09_Core_Values_Discovery_Guide.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/10_Values_Hierarchy_Worksheet.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/10_Values_Hierarchy_Worksheet.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/11_Values_Conflict_Resolution_Framework.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/11_Values_Conflict_Resolution_Framework.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/12_Values_Implementation_Planning_Template.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/12_Values_Implementation_Planning_Template.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/13_90_Day_Authenticity_Challenge.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/13_90_Day_Authenticity_Challenge.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/14_Boundary_Setting_Guide.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/14_Boundary_Setting_Guide.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/15_Emotional_Language_Dictionary.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/15_Emotional_Language_Dictionary.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/16_Feeling_vs_Thinking_Assessment.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/16_Feeling_vs_Thinking_Assessment.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/17_ARISE_Method_Quick_Reference.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/17_ARISE_Method_Quick_Reference.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/18_Response_Framework_Toolkit.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/18_Response_Framework_Toolkit.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/19_Emotion_Navigation_Guide.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/19_Emotion_Navigation_Guide.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/20_Conflict_Resolution_Framework.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/20_Conflict_Resolution_Framework.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/21_Stress_Analysis_Worksheet.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/21_Stress_Analysis_Worksheet.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/22_Resilience_Development_Plan.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/22_Resilience_Development_Plan.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/23_Comprehensive_Integration_Workbook.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/23_Comprehensive_Integration_Workbook.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/24_Blueprint_Template_System.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/24_Blueprint_Template_System.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/25_Growth_Planning_Framework.html
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/25_Growth_Planning_Framework.html
+Resource (page): https://art-aswany.github.io/authentic/Resources/interactive_resources_styles.css
+Resource (raw) : https://raw.githubusercontent.com/art-aswany/art-aswany.github.io/main/authentic/Resources/interactive_resources_styles.css
