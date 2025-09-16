@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Language Dictionary - Day 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .intro-section {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 50%);
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #f39c12;
+        }
+        
+        .emotion-category {
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin: 25px 0;
+            overflow: hidden;
+        }
+        
+        .category-header {
+            padding: 20px;
+            font-size: 1.4em;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+        }
+        
+        .joy-header { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
+        .sadness-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .anger-header { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .fear-header { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .surprise-header { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .disgust-header { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        
+        .emotions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        
+        .emotion-card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-left: 4px solid;
+            transition: transform 0.3s ease;
+        }
+        
+        .emotion-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .joy-card { border-left-color: #ff9a9e; }
+        .sadness-card { border-left-color: #667eea; }
+        .anger-card { border-left-color: #f5576c; }
+        .fear-card { border-left-color: #4facfe; }
+        .surprise-card { border-left-color: #43e97b; }
+        .disgust-card { border-left-color: #fa709a; }
+        
+        .emotion-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .emotion-description {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        
+        .intensity-levels {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .intensity-tag {
+            background: #e9ecef;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            color: #495057;
+        }
+        
+        .intensity-low { background: #d4edda; color: #155724; }
+        .intensity-medium { background: #fff3cd; color: #856404; }
+        .intensity-high { background: #f8d7da; color: #721c24; }
+        
+        .practice-section {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f1f8ff 100%);
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+        
+        .textarea-field {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            min-height: 80px;
+            resize: vertical;
+            font-family: inherit;
+            margin: 10px 0;
+        }
+        
+        .textarea-field:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                max-width: none;
+            }
+        }
+    
+        .input-field {
+            border: 2px solid #e8ecf4;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            min-height: 60px;
+            background: #ffffff;
+            width: 100%;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 14px;
+            resize: vertical;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        
+        .input-field:focus {
+            border-color: #667eea;
+            background: #f8f9ff;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .input-field:hover {
+            border-color: #764ba2;
+        }
+        
+        .input-field.large {
+            min-height: 120px;
+        }
+        
+        .input-field::placeholder {
+            color: #6c757d;
+            font-style: italic;
+            opacity: 0.7;
+        }
+        
+        /* تحسين الطباعة */
+        @media print {
+            .input-field {
+                border: 1px solid #333;
+                background: white !important;
+                color: #000 !important;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Emotional Language Dictionary</h1>
+            <p>Expand Your Emotional Vocabulary for Deeper Self-Understanding</p>
+        </div>
+        
+        <div class="content">
+            <div class="intro-section">
+                <h3>🎯 Why Emotional Vocabulary Matters</h3>
+                <p>The more precisely you can name your emotions, the better you can understand and manage them. This dictionary provides nuanced emotional language to help you identify exactly what you're feeling, leading to greater self-awareness and more effective emotional navigation.</p>
+                
+                <p style="margin-top: 15px;"><strong>How to use this dictionary:</strong> When you feel something but can't quite name it, browse through the relevant category to find words that resonate with your experience.</p>
+            </div>
+            <div class="emotion-category">
+                <div class="category-header joy-header">
+                    😊 JOY & HAPPINESS FAMILY
+                </div>
+                <div class="emotions-grid">
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Joyful</div>
+                        <div class="emotion-description">A feeling of great pleasure and happiness</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Content</span>
+                            <span class="intensity-tag intensity-medium">Happy</span>
+                            <span class="intensity-tag intensity-high">Ecstatic</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Grateful</div>
+                        <div class="emotion-description">Feeling thankful and appreciative</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Appreciative</span>
+                            <span class="intensity-tag intensity-medium">Thankful</span>
+                            <span class="intensity-tag intensity-high">Overwhelmed with gratitude</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Excited</div>
+                        <div class="emotion-description">Feeling enthusiastic and eager</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Interested</span>
+                            <span class="intensity-tag intensity-medium">Enthusiastic</span>
+                            <span class="intensity-tag intensity-high">Thrilled</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Peaceful</div>
+                        <div class="emotion-description">Feeling calm and tranquil</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Relaxed</span>
+                            <span class="intensity-tag intensity-medium">Serene</span>
+                            <span class="intensity-tag intensity-high">Blissful</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Confident</div>
+                        <div class="emotion-description">Feeling self-assured and certain</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Secure</span>
+                            <span class="intensity-tag intensity-medium">Self-assured</span>
+                            <span class="intensity-tag intensity-high">Invincible</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Proud</div>
+                        <div class="emotion-description">Feeling satisfaction from achievements</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Satisfied</span>
+                            <span class="intensity-tag intensity-medium">Accomplished</span>
+                            <span class="intensity-tag intensity-high">Triumphant</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Loved</div>
+                        <div class="emotion-description">Feeling cherished and valued</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Liked</span>
+                            <span class="intensity-tag intensity-medium">Cherished</span>
+                            <span class="intensity-tag intensity-high">Adored</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card joy-card">
+                        <div class="emotion-name">Hopeful</div>
+                        <div class="emotion-description">Feeling optimistic about the future</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Optimistic</span>
+                            <span class="intensity-tag intensity-medium">Expectant</span>
+                            <span class="intensity-tag intensity-high">Inspired</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="emotion-category">
+                <div class="category-header sadness-header">
+                    😢 SADNESS & SORROW FAMILY
+                </div>
+                <div class="emotions-grid">
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Sad</div>
+                        <div class="emotion-description">Feeling unhappy or sorrowful</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Down</span>
+                            <span class="intensity-tag intensity-medium">Melancholy</span>
+                            <span class="intensity-tag intensity-high">Devastated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Disappointed</div>
+                        <div class="emotion-description">Feeling let down when expectations aren't met</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Unsatisfied</span>
+                            <span class="intensity-tag intensity-medium">Disillusioned</span>
+                            <span class="intensity-tag intensity-high">Crushed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Lonely</div>
+                        <div class="emotion-description">Feeling isolated or without companionship</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Alone</span>
+                            <span class="intensity-tag intensity-medium">Isolated</span>
+                            <span class="intensity-tag intensity-high">Abandoned</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Grief</div>
+                        <div class="emotion-description">Deep sorrow from loss</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Mourning</span>
+                            <span class="intensity-tag intensity-medium">Heartbroken</span>
+                            <span class="intensity-tag intensity-high">Inconsolable</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Regretful</div>
+                        <div class="emotion-description">Feeling sorry about past actions</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Remorseful</span>
+                            <span class="intensity-tag intensity-medium">Guilty</span>
+                            <span class="intensity-tag intensity-high">Tormented</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Hopeless</div>
+                        <div class="emotion-description">Feeling without hope or optimism</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Discouraged</span>
+                            <span class="intensity-tag intensity-medium">Despairing</span>
+                            <span class="intensity-tag intensity-high">Despondent</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Hurt</div>
+                        <div class="emotion-description">Emotional pain from others' actions</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Wounded</span>
+                            <span class="intensity-tag intensity-medium">Betrayed</span>
+                            <span class="intensity-tag intensity-high">Shattered</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card sadness-card">
+                        <div class="emotion-name">Yearning</div>
+                        <div class="emotion-description">Deep longing for something or someone</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Wistful</span>
+                            <span class="intensity-tag intensity-medium">Longing</span>
+                            <span class="intensity-tag intensity-high">Aching</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="emotion-category">
+                <div class="category-header anger-header">
+                    😠 ANGER & FRUSTRATION FAMILY
+                </div>
+                <div class="emotions-grid">
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Annoyed</div>
+                        <div class="emotion-description">Feeling mildly irritated or bothered</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Bothered</span>
+                            <span class="intensity-tag intensity-medium">Irritated</span>
+                            <span class="intensity-tag intensity-high">Exasperated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Frustrated</div>
+                        <div class="emotion-description">Feeling blocked from achieving goals</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Impatient</span>
+                            <span class="intensity-tag intensity-medium">Aggravated</span>
+                            <span class="intensity-tag intensity-high">Infuriated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Resentful</div>
+                        <div class="emotion-description">Feeling bitter about perceived injustice</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Indignant</span>
+                            <span class="intensity-tag intensity-medium">Bitter</span>
+                            <span class="intensity-tag intensity-high">Vengeful</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Outraged</div>
+                        <div class="emotion-description">Feeling shocked anger at wrongdoing</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Offended</span>
+                            <span class="intensity-tag intensity-medium">Appalled</span>
+                            <span class="intensity-tag intensity-high">Livid</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Hostile</div>
+                        <div class="emotion-description">Feeling aggressive or unfriendly</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Defensive</span>
+                            <span class="intensity-tag intensity-medium">Aggressive</span>
+                            <span class="intensity-tag intensity-high">Furious</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Jealous</div>
+                        <div class="emotion-description">Feeling resentment over others' advantages</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Envious</span>
+                            <span class="intensity-tag intensity-medium">Possessive</span>
+                            <span class="intensity-tag intensity-high">Consumed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Disgusted</div>
+                        <div class="emotion-description">Feeling revulsion or strong dislike</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Distaste</span>
+                            <span class="intensity-tag intensity-medium">Repulsed</span>
+                            <span class="intensity-tag intensity-high">Revolted</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card anger-card">
+                        <div class="emotion-name">Contempt</div>
+                        <div class="emotion-description">Feeling others are beneath consideration</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Disdainful</span>
+                            <span class="intensity-tag intensity-medium">Scornful</span>
+                            <span class="intensity-tag intensity-high">Loathing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="emotion-category">
+                <div class="category-header fear-header">
+                    😰 FEAR & ANXIETY FAMILY
+                </div>
+                <div class="emotions-grid">
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Worried</div>
+                        <div class="emotion-description">Feeling uneasy about uncertain outcomes</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Concerned</span>
+                            <span class="intensity-tag intensity-medium">Anxious</span>
+                            <span class="intensity-tag intensity-high">Panicked</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Nervous</div>
+                        <div class="emotion-description">Feeling agitated about upcoming events</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Uneasy</span>
+                            <span class="intensity-tag intensity-medium">Jittery</span>
+                            <span class="intensity-tag intensity-high">Terrified</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Insecure</div>
+                        <div class="emotion-description">Feeling uncertain about oneself</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Self-doubting</span>
+                            <span class="intensity-tag intensity-medium">Inadequate</span>
+                            <span class="intensity-tag intensity-high">Worthless</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Overwhelmed</div>
+                        <div class="emotion-description">Feeling unable to cope with demands</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Stressed</span>
+                            <span class="intensity-tag intensity-medium">Burdened</span>
+                            <span class="intensity-tag intensity-high">Paralyzed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Vulnerable</div>
+                        <div class="emotion-description">Feeling exposed and unprotected</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Exposed</span>
+                            <span class="intensity-tag intensity-medium">Defenseless</span>
+                            <span class="intensity-tag intensity-high">Helpless</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Suspicious</div>
+                        <div class="emotion-description">Feeling distrustful of others' motives</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Cautious</span>
+                            <span class="intensity-tag intensity-medium">Paranoid</span>
+                            <span class="intensity-tag intensity-high">Petrified</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Embarrassed</div>
+                        <div class="emotion-description">Feeling self-conscious about mistakes</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Awkward</span>
+                            <span class="intensity-tag intensity-medium">Ashamed</span>
+                            <span class="intensity-tag intensity-high">Humiliated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card fear-card">
+                        <div class="emotion-name">Dread</div>
+                        <div class="emotion-description">Feeling intense fear about the future</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Apprehensive</span>
+                            <span class="intensity-tag intensity-medium">Foreboding</span>
+                            <span class="intensity-tag intensity-high">Horror</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			            <div class="emotion-category">
+                <div class="category-header surprise-header">
+                    😲 SURPRISE & CURIOSITY FAMILY
+                </div>
+                <div class="emotions-grid">
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Surprised</div>
+                        <div class="emotion-description">Feeling caught off guard by unexpected events</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Curious</span>
+                            <span class="intensity-tag intensity-medium">Amazed</span>
+                            <span class="intensity-tag intensity-high">Astonished</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Confused</div>
+                        <div class="emotion-description">Feeling unable to understand clearly</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Puzzled</span>
+                            <span class="intensity-tag intensity-medium">Perplexed</span>
+                            <span class="intensity-tag intensity-high">Bewildered</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Intrigued</div>
+                        <div class="emotion-description">Feeling fascinated and curious</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Interested</span>
+                            <span class="intensity-tag intensity-medium">Fascinated</span>
+                            <span class="intensity-tag intensity-high">Captivated</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Enlightened</div>
+                        <div class="emotion-description">Feeling suddenly understanding</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Informed</span>
+                            <span class="intensity-tag intensity-medium">Illuminated</span>
+                            <span class="intensity-tag intensity-high">Transformed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Stimulated</div>
+                        <div class="emotion-description">Feeling energized by new experiences</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Engaged</span>
+                            <span class="intensity-tag intensity-medium">Energized</span>
+                            <span class="intensity-tag intensity-high">Electrified</span>
+                        </div>
+                    </div>
+                    
+                    <div class="emotion-card surprise-card">
+                        <div class="emotion-name">Startled</div>
+                        <div class="emotion-description">Feeling sudden shock or alarm</div>
+                        <div class="intensity-levels">
+                            <span class="intensity-tag intensity-low">Taken aback</span>
+                            <span class="intensity-tag intensity-medium">Shocked</span>
+                            <span class="intensity-tag intensity-high">Stunned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="practice-section">
+                <h2 style="color: #2196f3; margin-bottom: 20px;">📝 Practice Using Your Emotional Vocabulary</h2>
+                
+                <div style="background: white; padding: 20px; border-radius: 8px; margin: 15px 0;">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">Emotion Identification Exercise</h4>
+                    
+                    <p><strong>Right now, I'm feeling:</strong></p>
+                    <textarea class="textarea-field" placeholder="Use specific words from the dictionary above to describe your current emotional state..."></textarea>
+                    
+                    <p><strong>Earlier today, I felt:</strong></p>
+                    <textarea class="textarea-field" placeholder="Think back to a moment earlier today and describe those emotions precisely..."></textarea>
+                    
+                    <p><strong>In challenging situations, I typically feel:</strong></p>
+                    <textarea class="textarea-field" placeholder="What emotions do you commonly experience during stress or conflict?"></textarea>
+                    
+                    <p><strong>My most frequent positive emotions are:</strong></p>
+                    <textarea class="textarea-field" placeholder="Which positive emotions do you experience most often?"></textarea>
+                </div>
+                
+                <div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #f39c12;">
+                    <h4 style="color: #d68910; margin-bottom: 15px;">🎯 Weekly Challenge</h4>
+                    <p><strong>This week, try to:</strong></p>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Use at least 3 new emotion words from this dictionary</li>
+                        <li>Check in with yourself 3 times per day: "What am I feeling right now?"</li>
+                        <li>Practice naming the intensity level of your emotions</li>
+                        <li>Notice how precise emotional language affects your self-understanding</li>
+                    </ul>
+                    
+                    <p style="margin-top: 15px;"><strong>Track your progress:</strong></p>
+                    <textarea class="textarea-field" style="min-height: 60px;" placeholder="Note which new emotion words you tried and how using them felt..."></textarea>
+                </div>
+            </div>
+            
+            <div class="intro-section">
+                <h3>🌟 Remember</h3>
+                <p><strong>Emotions are data, not directives.</strong> The more precisely you can identify what you're feeling, the better you can understand what your emotions are telling you about your needs, values, and circumstances. This emotional vocabulary is a tool for greater self-awareness and more authentic living.</p>
+                
+                <p style="margin-top: 15px;"><em>"The curious paradox is that when I accept myself just as I am, then I can change." - Carl Rogers</em></p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🌱 Part of your 7-Day Journey to Authentic Self-Discovery</p>
+            <p>Expand your emotional awareness with precise, nuanced language</p>
+        </div>
+    </div>
+
+        
+
+        <script>
+        // نظام حفظ وطباعة محسن
+        class InteractiveResourceManager {
+            constructor() {
+                this.storageKey = 'resource_' + window.location.pathname.split('/').pop();
+                this.init();
+            }
+            
+            init() {
+                this.loadSavedData();
+                this.attachEventListeners();
+                this.setupAutoSave();
+                this.setupPrintHandling();
+            }
+            
+            // حفظ البيانات
+            saveData() {
+                const data = {
+                    textareas: {},
+                    checkboxes: [],
+                    radios: [],
+                    timestamp: new Date().toISOString()
+                };
+                
+                // حفظ النصوص
+                document.querySelectorAll('textarea.input-field').forEach((textarea, index) => {
+                    if (textarea.value.trim()) {
+                        data.textareas[`textarea_${index}`] = textarea.value;
+                    }
+                });
+                
+                // حفظ الاختيارات
+                document.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => {
+                    data.checkboxes.push(cb.name || cb.value);
+                });
+                
+                document.querySelectorAll('input[type="radio"]:checked').forEach(radio => {
+                    data.radios.push({name: radio.name, value: radio.value});
+                });
+                
+                localStorage.setItem(this.storageKey, JSON.stringify(data));
+            }
+            
+            // تحميل البيانات المحفوظة
+            loadSavedData() {
+                try {
+                    const saved = localStorage.getItem(this.storageKey);
+                    if (saved) {
+                        const data = JSON.parse(saved);
+                        
+                        // استرداد النصوص
+                        Object.entries(data.textareas || {}).forEach(([key, value]) => {
+                            const index = parseInt(key.split('_')[1]);
+                            const textarea = document.querySelectorAll('textarea.input-field')[index];
+                            if (textarea) {
+                                textarea.value = value;
+                            }
+                        });
+                        
+                        // استرداد الاختيارات
+                        (data.checkboxes || []).forEach(name => {
+                            const checkbox = document.querySelector(`input[type="checkbox"][name="${name}"], input[type="checkbox"][value="${name}"]`);
+                            if (checkbox) checkbox.checked = true;
+                        });
+                        
+                        (data.radios || []).forEach(({name, value}) => {
+                            const radio = document.querySelector(`input[type="radio"][name="${name}"][value="${value}"]`);
+                            if (radio) radio.checked = true;
+                        });
+                    }
+                } catch (e) {
+                    console.log('خطأ في تحميل البيانات المحفوظة:', e);
+                }
+            }
+            
+            // إعداد الحفظ التلقائي
+            setupAutoSave() {
+                let saveTimeout;
+                const autoSave = () => {
+                    clearTimeout(saveTimeout);
+                    saveTimeout = setTimeout(() => this.saveData(), 1000);
+                };
+                
+                document.addEventListener('input', autoSave);
+                document.addEventListener('change', autoSave);
+            }
+            
+            // إعداد معالجة الطباعة
+            setupPrintHandling() {
+                window.addEventListener('beforeprint', () => {
+                    // إنشاء عناصر للطباعة تحتوي على الإجابات
+                    document.querySelectorAll('textarea.input-field').forEach(textarea => {
+                        if (textarea.value.trim()) {
+                            const printDiv = document.createElement('div');
+                            printDiv.className = 'print-answer';
+                            printDiv.style.cssText = `
+                                border: 1px solid #333;
+                                padding: 10px;
+                                margin: 5px 0;
+                                background: #f9f9f9;
+                                min-height: 40px;
+                                white-space: pre-wrap;
+                                font-family: Arial, sans-serif;
+                                font-size: 12px;
+                                page-break-inside: avoid;
+                            `;
+                            printDiv.textContent = textarea.value;
+                            
+                            textarea.style.display = 'none';
+                            textarea.parentNode.insertBefore(printDiv, textarea);
+                        }
+                    });
+                });
+                
+                window.addEventListener('afterprint', () => {
+                    // إزالة عناصر الطباعة
+                    document.querySelectorAll('.print-answer').forEach(div => div.remove());
+                    document.querySelectorAll('textarea.input-field').forEach(textarea => {
+                        textarea.style.display = 'block';
+                    });
+                });
+            }
+            
+            // إرفاق مستمعي الأحداث
+            attachEventListeners() {
+                // إضافة أزرار الحفظ والطباعة إذا لم تكن موجودة
+                this.addActionButtons();
+            }
+            
+            // إضافة أزرار الإجراءات
+            addActionButtons() {
+                if (!document.querySelector('.action-buttons')) {
+                    const buttonsDiv = document.createElement('div');
+                    buttonsDiv.className = 'action-buttons';
+                    buttonsDiv.style.cssText = `
+                        position: fixed;
+                        bottom: 20px;
+                        right: 20px;
+                        z-index: 1000;
+                        display: flex;
+                        gap: 10px;
+                        flex-direction: column;
+                    `;
+                    
+                    const printBtn = this.createButton('🖨️ Print', () => window.print());
+                    const saveBtn = this.createButton('💾 Save', () => {
+                        this.saveData();
+                        this.showNotification('Your answers have been saved');
+                    });
+                    const clearBtn = this.createButton('🗑️ Clear', () => {
+                        if (confirm('Do you want to clear all answers?')) {
+                            this.clearAll();
+                        }
+                    });
+                    
+                    buttonsDiv.appendChild(printBtn);
+                    buttonsDiv.appendChild(saveBtn);
+                    buttonsDiv.appendChild(clearBtn);
+                    
+                    document.body.appendChild(buttonsDiv);
+                }
+            }
+            
+            // إنشاء زر
+            createButton(text, onClick) {
+                const button = document.createElement('button');
+                button.textContent = text;
+                button.style.cssText = `
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    color: white;
+                    border: none;
+                    padding: 12px 16px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: bold;
+                    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+                    transition: all 0.3s ease;
+                    min-width: 100px;
+                `;
+                
+                button.addEventListener('mouseover', () => {
+                    button.style.transform = 'translateY(-2px)';
+                    button.style.boxShadow = '0 6px 20px rgba(102, 126, 234, 0.4)';
+                });
+                
+                button.addEventListener('mouseout', () => {
+                    button.style.transform = 'translateY(0)';
+                    button.style.boxShadow = '0 4px 15px rgba(102, 126, 234, 0.3)';
+                });
+                
+                button.addEventListener('click', onClick);
+                return button;
+            }
+            
+            // مسح جميع البيانات
+            clearAll() {
+                document.querySelectorAll('textarea.input-field').forEach(textarea => {
+                    textarea.value = '';
+                });
+                document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+                    cb.checked = false;
+                });
+                document.querySelectorAll('input[type="radio"]').forEach(radio => {
+                    radio.checked = false;
+                });
+                localStorage.removeItem(this.storageKey);
+                this.showNotification('All data cleared');
+            }
+            
+            // إظهار إشعار
+            showNotification(message) {
+                const notification = document.createElement('div');
+                notification.textContent = message;
+                notification.style.cssText = `
+                    position: fixed;
+                    top: 20px;
+                    right: 20px;
+                    background: #4CAF50;
+                    color: white;
+                    padding: 15px 20px;
+                    border-radius: 8px;
+                    z-index: 1001;
+                    font-weight: bold;
+                    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+                `;
+                
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.style.opacity = '0';
+                    notification.style.transform = 'translateY(-20px)';
+                    setTimeout(() => notification.remove(), 300);
+                }, 2000);
+            }
+        }
+        
+        // تهيئة النظام عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', () => {
+            new InteractiveResourceManager();
+        });
+        </script>
+
+<script>
+// نظام حساب تلقائي بسيط وفعال
+class WorkingCalculator {
+    constructor() {
+        this.results = {};
+        this.init();
+    }
+    
+    init() {
+        this.setupListeners();
+        this.createResultsPanel();
+    }
+    
+    setupListeners() {
+        // مراقبة تغييرات الإدخال
+        document.addEventListener('change', (e) => {
+            if (e.target.type === 'radio' || e.target.type === 'checkbox') {
+                this.calculate();
+                this.addAnimation(e.target);
+            }
+        });
+        
+        // مراقبة النصوص
+        document.addEventListener('input', (e) => {
+            if (e.target.classList.contains('input-field')) {
+                this.calculate();
+            }
+        });
+    }
+    
+    addAnimation(element) {
+        const parent = element.closest('.card, .section, .daily-challenge, .assessment-card');
+        if (parent) {
+            parent.style.transform = 'scale(1.05)';
+            parent.style.transition = 'all 0.3s ease';
+            parent.style.boxShadow = '0 8px 25px rgba(102, 126, 234, 0.4)';
+            
+            setTimeout(() => {
+                parent.style.transform = 'scale(1)';
+                parent.style.boxShadow = 'none';
+            }, 400);
+        }
+    }
+    
+    calculate() {
+        // حساب النقاط من radio buttons
+        const radioInputs = document.querySelectorAll('input[type="radio"]:checked');
+        let totalScore = 0;
+        let maxScore = 0;
+        
+        radioInputs.forEach(input => {
+            const value = parseInt(input.value) || 1;
+            totalScore += value;
+        });
+        
+        // حساب العدد الإجمالي للأسئلة
+        const allRadios = document.querySelectorAll('input[type="radio"]');
+        const questions = new Set();
+        allRadios.forEach(radio => {
+            questions.add(radio.name);
+        });
+        
+        maxScore = questions.size * 5; // افتراض أقصى 5 نقاط لكل سؤال
+        
+        // حساب النسبة المئوية
+        const percentage = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+        
+        // حساب عدد الإجابات المكتملة
+        const completedQuestions = radioInputs.length;
+        const totalQuestions = questions.size;
+        const completionRate = totalQuestions > 0 ? Math.round((completedQuestions / totalQuestions) * 100) : 0;
+        
+        // حفظ النتائج
+        this.results = {
+            totalScore: totalScore,
+            maxScore: maxScore,
+            percentage: percentage,
+            completed: completedQuestions,
+            total: totalQuestions,
+            completionRate: completionRate
+        };
+        
+        this.updateDisplay();
+    }
+    
+    updateDisplay() {
+        const resultsDiv = document.getElementById('live-calculator-results');
+        if (!resultsDiv) return;
+        
+        const { totalScore, percentage, completed, total, completionRate } = this.results;
+        
+        resultsDiv.innerHTML = `
+            <div class="calc-results-grid">
+                <div class="calc-card">
+                    <div class="calc-score">${percentage}%</div>
+                    <div class="calc-label">Overall Score</div>
+                    <div class="calc-bar">
+                        <div class="calc-fill" style="width: ${percentage}%"></div>
+                    </div>
+                </div>
+                <div class="calc-card">
+                    <div class="calc-score">${totalScore}</div>
+                    <div class="calc-label">Total Points</div>
+                    <div class="calc-detail">out of ${this.results.maxScore}</div>
+                </div>
+                <div class="calc-card">
+                    <div class="calc-score">${completionRate}%</div>
+                    <div class="calc-label">Completion</div>
+                    <div class="calc-detail">${completed}/${total} answered</div>
+                </div>
+            </div>
+        `;
+        
+        // إضافة رؤى بسيطة
+        this.showInsights(percentage, completionRate);
+    }
+    
+    showInsights(percentage, completion) {
+        const insightsDiv = document.getElementById('live-insights');
+        if (!insightsDiv) return;
+        
+        const insights = [];
+        
+        if (completion >= 100) {
+            insights.push("✅ Assessment completed! All questions answered.");
+        } else if (completion >= 50) {
+            insights.push(`📊 ${completion}% complete. Keep going!`);
+        } else {
+            insights.push("📝 Just getting started. Answer more questions for better insights.");
+        }
+        
+        if (percentage >= 80) {
+            insights.push("🌟 Excellent results! You're showing strong performance.");
+        } else if (percentage >= 60) {
+            insights.push("👍 Good results! There are areas for growth and development.");
+        } else if (percentage >= 40) {
+            insights.push("📈 Moderate results. Consider focusing on development opportunities.");
+        }
+        
+        insightsDiv.innerHTML = insights.map(insight => 
+            `<div class="insight-item">${insight}</div>`
+        ).join('');
+    }
+    
+    createResultsPanel() {
+        // التحقق من وجود اللوحة
+        if (document.getElementById('working-calculator-panel')) return;
+        
+        const panelHTML = `
+            <div id="working-calculator-panel" class="calc-panel">
+                <div class="calc-header">
+                    <h3>📊 Live Results</h3>
+                    <div class="calc-actions">
+                        <button onclick="workingCalc.save()" class="calc-btn">💾 Save</button>
+                        <button onclick="workingCalc.print()" class="calc-btn">🖨️ Print</button>
+                        <button onclick="workingCalc.clear()" class="calc-btn">🗑️ Clear</button>
+                    </div>
+                </div>
+                <div id="live-calculator-results" class="calc-results"></div>
+                <div id="live-insights" class="calc-insights"></div>
+            </div>
+        `;
+        
+        // إدراج اللوحة
+        const lastSection = document.querySelector('.section:last-child, .content:last-child');
+        if (lastSection) {
+            lastSection.insertAdjacentHTML('afterend', panelHTML);
+        } else {
+            document.body.insertAdjacentHTML('beforeend', panelHTML);
+        }
+        
+        this.addStyles();
+    }
+    
+    addStyles() {
+        const style = document.createElement('style');
+        style.textContent = `
+            .calc-panel {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border-radius: 15px;
+                padding: 25px;
+                margin: 25px auto;
+                color: white;
+                box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+                max-width: 1000px;
+            }
+            .calc-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .calc-header h3 {
+                margin: 0;
+                font-size: 1.5em;
+            }
+            .calc-actions {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .calc-btn {
+                background: rgba(255, 255, 255, 0.2);
+                color: white;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+                padding: 8px 15px;
+                border-radius: 20px;
+                cursor: pointer;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+            .calc-btn:hover {
+                background: rgba(255, 255, 255, 0.3);
+                transform: translateY(-2px);
+            }
+            .calc-results-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+                margin: 20px 0;
+            }
+            .calc-card {
+                background: rgba(255, 255, 255, 0.15);
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+                backdrop-filter: blur(10px);
+            }
+            .calc-score {
+                font-size: 2.2em;
+                font-weight: bold;
+                margin: 5px 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            }
+            .calc-label {
+                font-size: 1em;
+                opacity: 0.9;
+                margin: 5px 0;
+            }
+            .calc-detail {
+                font-size: 0.85em;
+                opacity: 0.7;
+                margin-top: 5px;
+            }
+            .calc-bar {
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 15px;
+                height: 6px;
+                margin: 10px 0;
+                overflow: hidden;
+            }
+            .calc-fill {
+                height: 100%;
+                background: #4CAF50;
+                border-radius: 15px;
+                transition: width 0.8s ease;
+            }
+            .calc-insights {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                padding: 15px;
+                margin-top: 15px;
+            }
+            .insight-item {
+                background: rgba(255, 255, 255, 0.1);
+                padding: 10px 15px;
+                border-radius: 6px;
+                margin: 8px 0;
+                border-left: 3px solid #4CAF50;
+            }
+            @media (max-width: 768px) {
+                .calc-header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .calc-results-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    save() {
+        const data = {
+            timestamp: new Date().toISOString(),
+            results: this.results,
+            responses: this.getFormData()
+        };
+        
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `assessment_results_${new Date().toISOString().split('T')[0]}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        
+        this.notify('Results saved successfully! 💾');
+    }
+    
+    print() {
+        window.print();
+    }
+    
+    clear() {
+        if (confirm('هل تريد مسح جميع الإجابات؟ Clear all answers?')) {
+            document.querySelectorAll('input[type="radio"]').forEach(input => {
+                input.checked = false;
+            });
+            document.querySelectorAll('input[type="checkbox"]').forEach(input => {
+                input.checked = false;
+            });
+            document.querySelectorAll('textarea.input-field').forEach(textarea => {
+                textarea.value = '';
+            });
+            
+            this.results = {};
+            this.updateDisplay();
+            this.notify('All answers cleared! 🗑️');
+        }
+    }
+    
+    getFormData() {
+        const data = {};
+        
+        document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
+            data[input.name] = input.value;
+        });
+        
+        document.querySelectorAll('textarea.input-field').forEach((textarea, index) => {
+            if (textarea.value.trim()) {
+                data[`text_${index}`] = textarea.value;
+            }
+        });
+        
+        return data;
+    }
+    
+    notify(message) {
+        const notification = document.createElement('div');
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            z-index: 10000;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+            animation: slideIn 0.3s ease;
+        `;
+        
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        
+        setTimeout(() => {
+            notification.style.opacity = '0';
+            notification.style.transform = 'translateY(-20px)';
+            setTimeout(() => notification.remove(), 300);
+        }, 3000);
+    }
+}
+
+// تشغيل النظام
+document.addEventListener('DOMContentLoaded', () => {
+    window.workingCalc = new WorkingCalculator();
+});
+</script>
+
+<script>
+// نظام حساب تلقائي بسيط وفعال
+class WorkingCalculator {
+    constructor() {
+        this.results = {};
+        this.init();
+    }
+    
+    init() {
+        this.setupListeners();
+        this.createResultsPanel();
+    }
+    
+    setupListeners() {
+        // مراقبة تغييرات الإدخال
+        document.addEventListener('change', (e) => {
+            if (e.target.type === 'radio' || e.target.type === 'checkbox') {
+                this.calculate();
+                this.addAnimation(e.target);
+            }
+        });
+        
+        // مراقبة النصوص
+        document.addEventListener('input', (e) => {
+            if (e.target.classList.contains('input-field')) {
+                this.calculate();
+            }
+        });
+    }
+    
+    addAnimation(element) {
+        const parent = element.closest('.card, .section, .daily-challenge, .assessment-card');
+        if (parent) {
+            parent.style.transform = 'scale(1.05)';
+            parent.style.transition = 'all 0.3s ease';
+            parent.style.boxShadow = '0 8px 25px rgba(102, 126, 234, 0.4)';
+            
+            setTimeout(() => {
+                parent.style.transform = 'scale(1)';
+                parent.style.boxShadow = 'none';
+            }, 400);
+        }
+    }
+    
+    calculate() {
+        // حساب النقاط من radio buttons
+        const radioInputs = document.querySelectorAll('input[type="radio"]:checked');
+        let totalScore = 0;
+        let maxScore = 0;
+        
+        radioInputs.forEach(input => {
+            const value = parseInt(input.value) || 1;
+            totalScore += value;
+        });
+        
+        // حساب العدد الإجمالي للأسئلة
+        const allRadios = document.querySelectorAll('input[type="radio"]');
+        const questions = new Set();
+        allRadios.forEach(radio => {
+            questions.add(radio.name);
+        });
+        
+        maxScore = questions.size * 5; // افتراض أقصى 5 نقاط لكل سؤال
+        
+        // حساب النسبة المئوية
+        const percentage = maxScore > 0 ? Math.round((totalScore / maxScore) * 100) : 0;
+        
+        // حساب عدد الإجابات المكتملة
+        const completedQuestions = radioInputs.length;
+        const totalQuestions = questions.size;
+        const completionRate = totalQuestions > 0 ? Math.round((completedQuestions / totalQuestions) * 100) : 0;
+        
+        // حفظ النتائج
+        this.results = {
+            totalScore: totalScore,
+            maxScore: maxScore,
+            percentage: percentage,
+            completed: completedQuestions,
+            total: totalQuestions,
+            completionRate: completionRate
+        };
+        
+        this.updateDisplay();
+    }
+    
+    updateDisplay() {
+        const resultsDiv = document.getElementById('live-calculator-results');
+        if (!resultsDiv) return;
+        
+        const { totalScore, percentage, completed, total, completionRate } = this.results;
+        
+        resultsDiv.innerHTML = `
+            <div class="calc-results-grid">
+                <div class="calc-card">
+                    <div class="calc-score">${percentage}%</div>
+                    <div class="calc-label">Overall Score</div>
+                    <div class="calc-bar">
+                        <div class="calc-fill" style="width: ${percentage}%"></div>
+                    </div>
+                </div>
+                <div class="calc-card">
+                    <div class="calc-score">${totalScore}</div>
+                    <div class="calc-label">Total Points</div>
+                    <div class="calc-detail">out of ${this.results.maxScore}</div>
+                </div>
+                <div class="calc-card">
+                    <div class="calc-score">${completionRate}%</div>
+                    <div class="calc-label">Completion</div>
+                    <div class="calc-detail">${completed}/${total} answered</div>
+                </div>
+            </div>
+        `;
+        
+        // إضافة رؤى بسيطة
+        this.showInsights(percentage, completionRate);
+    }
+    
+    showInsights(percentage, completion) {
+        const insightsDiv = document.getElementById('live-insights');
+        if (!insightsDiv) return;
+        
+        const insights = [];
+        
+        if (completion >= 100) {
+            insights.push("✅ Assessment completed! All questions answered.");
+        } else if (completion >= 50) {
+            insights.push(`📊 ${completion}% complete. Keep going!`);
+        } else {
+            insights.push("📝 Just getting started. Answer more questions for better insights.");
+        }
+        
+        if (percentage >= 80) {
+            insights.push("🌟 Excellent results! You're showing strong performance.");
+        } else if (percentage >= 60) {
+            insights.push("👍 Good results! There are areas for growth and development.");
+        } else if (percentage >= 40) {
+            insights.push("📈 Moderate results. Consider focusing on development opportunities.");
+        }
+        
+        insightsDiv.innerHTML = insights.map(insight => 
+            `<div class="insight-item">${insight}</div>`
+        ).join('');
+    }
+    
+    createResultsPanel() {
+        // التحقق من وجود اللوحة
+        if (document.getElementById('working-calculator-panel')) return;
+        
+        const panelHTML = `
+            <div id="working-calculator-panel" class="calc-panel">
+                <div class="calc-header">
+                    <h3>📊 Live Results</h3>
+                    <div class="calc-actions">
+                        <button onclick="workingCalc.save()" class="calc-btn">💾 Save</button>
+                        <button onclick="workingCalc.print()" class="calc-btn">🖨️ Print</button>
+                        <button onclick="workingCalc.clear()" class="calc-btn">🗑️ Clear</button>
+                    </div>
+                </div>
+                <div id="live-calculator-results" class="calc-results"></div>
+                <div id="live-insights" class="calc-insights"></div>
+            </div>
+        `;
+        
+        // إدراج اللوحة
+        const lastSection = document.querySelector('.section:last-child, .content:last-child');
+        if (lastSection) {
+            lastSection.insertAdjacentHTML('afterend', panelHTML);
+        } else {
+            document.body.insertAdjacentHTML('beforeend', panelHTML);
+        }
+        
+        this.addStyles();
+    }
+    
+    addStyles() {
+        const style = document.createElement('style');
+        style.textContent = `
+            .calc-panel {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border-radius: 15px;
+                padding: 25px;
+                margin: 25px auto;
+                color: white;
+                box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+                max-width: 1000px;
+            }
+            .calc-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+            .calc-header h3 {
+                margin: 0;
+                font-size: 1.5em;
+            }
+            .calc-actions {
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .calc-btn {
+                background: rgba(255, 255, 255, 0.2);
+                color: white;
+                border: 2px solid rgba(255, 255, 255, 0.3);
+                padding: 8px 15px;
+                border-radius: 20px;
+                cursor: pointer;
+                font-weight: bold;
+                transition: all 0.3s ease;
+            }
+            .calc-btn:hover {
+                background: rgba(255, 255, 255, 0.3);
+                transform: translateY(-2px);
+            }
+            .calc-results-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+                margin: 20px 0;
+            }
+            .calc-card {
+                background: rgba(255, 255, 255, 0.15);
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+                backdrop-filter: blur(10px);
+            }
+            .calc-score {
+                font-size: 2.2em;
+                font-weight: bold;
+                margin: 5px 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            }
+            .calc-label {
+                font-size: 1em;
+                opacity: 0.9;
+                margin: 5px 0;
+            }
+            .calc-detail {
+                font-size: 0.85em;
+                opacity: 0.7;
+                margin-top: 5px;
+            }
+            .calc-bar {
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 15px;
+                height: 6px;
+                margin: 10px 0;
+                overflow: hidden;
+            }
+            .calc-fill {
+                height: 100%;
+                background: #4CAF50;
+                border-radius: 15px;
+                transition: width 0.8s ease;
+            }
+            .calc-insights {
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 10px;
+                padding: 15px;
+                margin-top: 15px;
+            }
+            .insight-item {
+                background: rgba(255, 255, 255, 0.1);
+                padding: 10px 15px;
+                border-radius: 6px;
+                margin: 8px 0;
+                border-left: 3px solid #4CAF50;
+            }
+            @media (max-width: 768px) {
+                .calc-header {
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .calc-results-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+    
+    save() {
+        const data = {
+            timestamp: new Date().toISOString(),
+            results: this.results,
+            responses: this.getFormData()
+        };
+        
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `assessment_results_${new Date().toISOString().split('T')[0]}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+        
+        this.notify('Results saved successfully! 💾');
+    }
+    
+    print() {
+        window.print();
+    }
+    
+    clear() {
+        if (confirm('هل تريد مسح جميع الإجابات؟ Clear all answers?')) {
+            document.querySelectorAll('input[type="radio"]').forEach(input => {
+                input.checked = false;
+            });
+            document.querySelectorAll('input[type="checkbox"]').forEach(input => {
+                input.checked = false;
+            });
+            document.querySelectorAll('textarea.input-field').forEach(textarea => {
+                textarea.value = '';
+            });
+            
+            this.results = {};
+            this.updateDisplay();
+            this.notify('All answers cleared! 🗑️');
+        }
+    }
+    
+    getFormData() {
+        const data = {};
+        
+        document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
+            data[input.name] = input.value;
+        });
+        
+        document.querySelectorAll('textarea.input-field').forEach((textarea, index) => {
+            if (textarea.value.trim()) {
+                data[`text_${index}`] = textarea.value;
+            }
+        });
+        
+        return data;
+    }
+    
+    notify(message) {
+        const notification = document.createElement('div');
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            z-index: 10000;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+            animation: slideIn 0.3s ease;
+        `;
+        
+        notification.textContent = message;
+        document.body.appendChild(notification);
+        
+        setTimeout(() => {
+            notification.style.opacity = '0';
+            notification.style.transform = 'translateY(-20px)';
+            setTimeout(() => notification.remove(), 300);
+        }, 3000);
+    }
+}
+
+// تشغيل النظام
+document.addEventListener('DOMContentLoaded', () => {
+    window.workingCalc = new WorkingCalculator();
+});
+</script>
+</body>
+</html>
