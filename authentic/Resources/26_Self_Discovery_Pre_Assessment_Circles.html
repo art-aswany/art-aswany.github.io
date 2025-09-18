@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Discovery Pre-Assessment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .instructions {
+            background: #f8f9ff;
+            border-left: 5px solid #667eea;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .category {
+            margin: 30px 0;
+            padding: 25px;
+            border: 2px solid #e8ecf4;
+            border-radius: 15px;
+            background: #f8f9ff;
+        }
+        
+        .category h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .question-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        
+        .question-text {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.4;
+        }
+        
+        .rating-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 15px 0;
+        }
+        
+        .rating-circles {
+            display: flex;
+            gap: 8px;
+            flex: 1;
+            justify-content: center;
+        }
+        
+        .circle-item {
+            width: 35px;
+            height: 35px;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+            font-weight: bold;
+            color: #667eea;
+            font-size: 14px;
+        }
+        
+        .circle-item:hover {
+            transform: scale(1.1);
+            background: #e8f4fd;
+        }
+        
+        .circle-item.selected {
+            background: #667eea;
+            color: white;
+        }
+        
+        .rating-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 40px 0;
+            justify-content: center;
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #495057;
+            border: 2px solid #dee2e6;
+        }
+        
+        .btn-secondary:hover {
+            background: #e9ecef;
+        }
+        
+        .result {
+            margin-top: 30px;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            font-weight: bold;
+            display: none;
+            animation: fadeIn 0.6s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .result.high {
+            background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+            color: white;
+        }
+        
+        .result.medium-high {
+            background: linear-gradient(135deg, #00cec9 0%, #55a3ff 100%);
+            color: white;
+        }
+        
+        .result.medium {
+            background: linear-gradient(135deg, #fdcb6e 0%, #e17055 100%);
+            color: white;
+        }
+        
+        .result.low {
+            background: linear-gradient(135deg, #ff7675 0%, #e84393 100%);
+            color: white;
+        }
+        
+        .score-display {
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 6px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: rgba(255,255,255,0.9);
+            border-radius: 6px;
+            transition: width 1s ease;
+        }
+        
+        .category-scores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+        
+        .category-score {
+            background: rgba(255,255,255,0.2);
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            .rating-circles {
+                gap: 5px;
+            }
+            
+            .circle-item {
+                width: 30px;
+                height: 30px;
+                font-size: 12px;
+            }
+            
+            .content {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Self-Discovery Pre-Assessment</h1>
+            <p>Complete baseline assessment (12 questions from 120 total)</p>
+        </div>
+        
+        <div class="content">
+            <div class="instructions">
+                <h3>📋 Instructions:</h3>
+                <p><strong>Rate yourself honestly on a scale of 1-10</strong></p>
+                <p>(1 = completely unclear, 10 = crystal clear)</p>
+            </div>
+            
+            <!-- Identity Clarity -->
+            <div class="category">
+                <h3>🎭 Identity Clarity</h3>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>1.</strong> I know who I am beneath my professional and social roles:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles" data-question="q1">
+                            <!-- Circles will be generated by JavaScript -->
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>2.</strong> I can describe my authentic personality clearly:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q2')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>3.</strong> I feel comfortable being myself in all situations:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q3')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Values Understanding -->
+            <div class="category">
+                <h3>🎯 Values Understanding</h3>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>4.</strong> I know what matters most to me in life:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q4')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>5.</strong> My daily choices align with my core values:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q5')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>6.</strong> I can explain my values to others clearly:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q6')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Emotional Intelligence -->
+            <div class="category">
+                <h3>🧠 Emotional Intelligence</h3>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>7.</strong> I understand why I feel what I feel:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q7')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>8.</strong> I can regulate my emotions effectively:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q8')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>9.</strong> I use emotions as information for decisions:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q9')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Authentic Living -->
+            <div class="category">
+                <h3>🌟 Authentic Living</h3>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>10.</strong> My relationships are based on my authentic self:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q10')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>11.</strong> My career aligns with who I really am:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q11')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+                
+                <div class="question-item">
+                    <div class="question-text"><strong>12.</strong> I make decisions confidently based on internal guidance:</div>
+                    <div class="rating-container">
+                        <div class="rating-circles">
+                            ${generateCircles('q12')}
+                        </div>
+                    </div>
+                    <div class="rating-labels">
+                        <span>Completely unclear</span>
+                        <span>Crystal clear</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-primary" onclick="calculateScore()">📊 Calculate My Score</button>
+                <button class="btn btn-secondary" onclick="saveResults()">💾 Save Results</button>
+                <button class="btn btn-secondary" onclick="printAssessment()">🖨️ Print</button>
+                <button class="btn btn-secondary" onclick="clearAll()">🗑️ Clear All</button>
+            </div>
+            
+            <div id="result" class="result">
+                <div class="score-display" id="scoreDisplay"></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="category-scores" id="categoryScores"></div>
+                <p id="resultText"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Generate circles for each question
+        function generateCirclesHTML(questionName) {
+            let html = '';
+            for (let i = 1; i <= 10; i++) {
+                html += `<div class="circle-item" onclick="selectRating('${questionName}', ${i})" data-value="${i}">${i}</div>`;
+            }
+            return html;
+        }
+        
+        // Insert circles into DOM
+        document.addEventListener('DOMContentLoaded', function() {
+            const ratingContainers = document.querySelectorAll('.rating-circles');
+            ratingContainers.forEach((container, index) => {
+                const questionName = `q${index + 1}`;
+                container.innerHTML = generateCirclesHTML(questionName);
+            });
+        });
+        
+        function selectRating(question, value) {
+            // Clear previous selections for this question
+            const questionCircles = document.querySelectorAll(`[onclick*="${question}"]`);
+            questionCircles.forEach(circle => circle.classList.remove('selected'));
+            
+            // Select clicked circle
+            const selectedCircle = document.querySelector(`[onclick="selectRating('${question}', ${value})"]`);
+            selectedCircle.classList.add('selected');
+            
+            // Store value
+            selectedCircle.setAttribute('data-selected', value);
+        }
+        
+        function calculateScore() {
+            let totalScore = 0;
+            let answeredQuestions = 0;
+            let categoryScores = { identity: 0, values: 0, emotional: 0, authentic: 0 };
+            
+            for (let i = 1; i <= 12; i++) {
+                const selectedCircle = document.querySelector(`[onclick*="q${i}"].selected`);
+                if (selectedCircle) {
+                    const value = parseInt(selectedCircle.getAttribute('data-value'));
+                    totalScore += value;
+                    answeredQuestions++;
+                    
+                    // Categorize scores
+                    if (i <= 3) categoryScores.identity += value;
+                    else if (i <= 6) categoryScores.values += value;
+                    else if (i <= 9) categoryScores.emotional += value;
+                    else categoryScores.authentic += value;
+                }
+            }
+            
+            if (answeredQuestions < 12) {
+                alert("Please answer all 12 questions before calculating your score.");
+                return;
+            }
+            
+            showResults(totalScore, categoryScores);
+        }
+        
+        function showResults(totalScore, categoryScores) {
+            const resultDiv = document.getElementById('result');
+            const scoreDisplay = document.getElementById('scoreDisplay');
+            const progressFill = document.getElementById('progressFill');
+            const categoryScoresDiv = document.getElementById('categoryScores');
+            const resultText = document.getElementById('resultText');
+            
+            const percentage = (totalScore / 120) * 100;
+            
+            scoreDisplay.textContent = `${totalScore}/120`;
+            progressFill.style.width = percentage + '%';
+            
+            categoryScoresDiv.innerHTML = `
+                <div class="category-score">
+                    <strong>🎭 Identity:</strong><br>${categoryScores.identity}/30
+                </div>
+                <div class="category-score">
+                    <strong>🎯 Values:</strong><br>${categoryScores.values}/30
+                </div>
+                <div class="category-score">
+                    <strong>🧠 Emotional:</strong><br>${categoryScores.emotional}/30
+                </div>
+                <div class="category-score">
+                    <strong>🌟 Authentic:</strong><br>${categoryScores.authentic}/30
+                </div>
+            `;
+            
+            let resultClass, message;
+            
+            // Updated ranges for 120 total
+            if (totalScore >= 84) { // 70% = 84/120
+                resultClass = 'high';
+                message = `<strong>Excellent Self-Awareness (${totalScore}/120)</strong><br><br>You have strong self-awareness foundation and will use this program to fine-tune and deepen your authenticity.`;
+            } else if (totalScore >= 60) { // 50% = 60/120  
+                resultClass = 'medium-high';
+                message = `<strong>Good Foundation with Growth Areas (${totalScore}/120)</strong><br><br>You have some self-knowledge but significant gaps that create decision-making confusion.`;
+            } else if (totalScore >= 36) { // 30% = 36/120
+                resultClass = 'medium';
+                message = `<strong>Significant Authenticity Gap (${totalScore}/120)</strong><br><br>You're living significantly disconnected from your authentic self.`;
+            } else {
+                resultClass = 'low';
+                message = `<strong>Authenticity Crisis - Transformation Needed (${totalScore}/120)</strong><br><br>You're in authenticity crisis and this program will be life-changing.`;
+            }
+            
+            resultDiv.className = `result ${resultClass}`;
+            resultText.innerHTML = message;
+            resultDiv.style.display = 'block';
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function saveResults() {
+            const results = {};
+            for (let i = 1; i <= 12; i++) {
+                const selected = document.querySelector(`[onclick*="q${i}"].selected`);
+                if (selected) {
+                    results[`q${i}`] = parseInt(selected.getAttribute('data-value'));
+                }
+            }
+            
+            if (Object.keys(results).length < 12) {
+                alert('Please complete all questions first.');
+                return;
+            }
+            
+            const data = {
+                results: results,
+                timestamp: new Date().toISOString()
+            };
+            
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `self_discovery_assessment_${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+        
+        function printAssessment() {
+            window.print();
+        }
+        
+        function clearAll() {
+            if (confirm('Clear all answers?')) {
+                document.querySelectorAll('.circle-item').forEach(circle => {
+                    circle.classList.remove('selected');
+                });
+                document.getElementById('result').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
